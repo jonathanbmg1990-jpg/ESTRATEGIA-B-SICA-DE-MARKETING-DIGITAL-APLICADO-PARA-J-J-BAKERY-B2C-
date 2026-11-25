@@ -1,0 +1,2477 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- SEO Meta Tags -->
+  <title>J&J Bakery | Pasteles Artesanales Personalizados en Villanueva Cortés</title>
+  <meta name="description" content="Pasteles artesanales personalizados para cumpleaños, bodas, quinceaños, graduaciones y eventos especiales en Villanueva, Cortés. Solicita tu cotización por WhatsApp." />
+  <meta name="keywords" content="Pasteles en Villanueva, Repostería J&J, J&J Bakery, Pasteles personalizados Honduras, Pasteles para cumpleaños, Pasteles para bodas, Repostería artesanal" />
+  <meta name="author" content="J&J Bakery - Repostería J&J" />
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="J&J Bakery | Pasteles Artesanales Personalizados en Villanueva Cortés" />
+  <meta property="og:description" content="Creamos el sabor de tus mejores recuerdos. Pasteles artesanales personalizados en Villanueva, Cortés." />
+  <meta property="og:image" content="https://lh3.googleusercontent.com/d/1CCz9v4uoxJ3SoDoB027vy_YxRaAlCJla" />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts: Playfair Display (Editorial Luxury) & Plus Jakarta Sans (Clean UI) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Tailwind Custom Configuration -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            bakery: {
+              white: '#FFFFFF',
+              cream: '#FFF8F0',
+              blush: '#F8D7DA',
+              blushDark: '#E8B4B8',
+              gold: '#D4AF37',
+              goldDark: '#B59224',
+              beige: '#F3E5D8',
+              cocoa: '#2C1E1A',
+              mocha: '#5A4640',
+              whatsapp: '#25D366',
+              whatsappDark: '#1EBE5D'
+            }
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+          },
+          boxShadow: {
+            'soft': '0 10px 30px -5px rgba(44, 30, 26, 0.06)',
+            'premium': '0 20px 45px -10px rgba(44, 30, 26, 0.12)',
+            'gold': '0 10px 25px -5px rgba(212, 175, 55, 0.25)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Custom Subtle Animations & Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #FFF8F0;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #E2C8B3;
+      border-radius: 9999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #D4AF37;
+    }
+
+    @keyframes floatSlow {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    .animate-float {
+      animation: floatSlow 5s ease-in-out infinite;
+    }
+
+    @keyframes fadeInScale {
+      from { opacity: 0; transform: scale(0.96) translateY(8px); }
+      to { opacity: 1; transform: scale(1) translateY(0); }
+    }
+    .animate-modal {
+      animation: fadeInScale 0.28s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    /* Masonry Layout Helper */
+    .masonry-grid {
+      column-count: 1;
+      column-gap: 1.5rem;
+    }
+    @media (min-width: 640px) {
+      .masonry-grid { column-count: 2; }
+    }
+    @media (min-width: 1024px) {
+      .masonry-grid { column-count: 3; }
+    }
+    .masonry-item {
+      break-inside: avoid;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Glass & Decorative Textures */
+    .glass-nav {
+      background: rgba(255, 248, 240, 0.88);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+    }
+
+    /* Chatbot Typing Indicator */
+    .typing-dot {
+      animation: typingBounce 1.4s infinite ease-in-out both;
+    }
+    .typing-dot:nth-child(1) { animation-delay: -0.32s; }
+    .typing-dot:nth-child(2) { animation-delay: -0.16s; }
+    @keyframes typingBounce {
+      0%, 80%, 100% { transform: scale(0); }
+      40% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body class="bg-bakery-cream text-bakery-cocoa font-sans antialiased selection:bg-bakery-blush selection:text-bakery-cocoa overflow-x-hidden">
+
+  <!-- ===================================================================== -->
+  <!-- TOP ANNOUNCEMENT BAR                                                  -->
+  <!-- ===================================================================== -->
+  <div class="bg-bakery-cocoa text-bakery-cream text-xs sm:text-sm py-2 px-4 text-center tracking-wide">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-center gap-2">
+      <span class="inline-flex items-center gap-1.5 text-bakery-gold font-medium">
+        <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+        Repostería Artesanal en Villanueva, Cortés
+      </span>
+      <span class="hidden sm:inline text-bakery-beige/40">•</span>
+      <span class="text-bakery-beige">Pedidos personalizados para toda ocasión especial</span>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- STICKY NAVIGATION BAR                                                 -->
+  <!-- ===================================================================== -->
+  <header id="navbar" class="sticky top-0 z-40 glass-nav border-b border-bakery-beige/80 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Brand Logo & Name -->
+        <a href="#inicio" class="flex items-center gap-3 group focus:outline-none">
+          <div class="relative w-12 h-12 sm:w-14 sm:h-14 rounded-full overflow-hidden border-2 border-bakery-gold/60 bg-white shadow-sm group-hover:scale-105 transition-transform duration-300 flex items-center justify-center">
+            <img 
+              src="https://lh3.googleusercontent.com/d/1CCz9v4uoxJ3SoDoB027vy_YxRaAlCJla" 
+              alt="Logo oficial J&J Bakery" 
+              class="w-full h-full object-cover"
+              onerror="this.onerror=null; this.src='https://placehold.co/120x120/FFF8F0/D4AF37?text=J%26J';"
+            />
+          </div>
+          <div>
+            <span class="block font-serif text-xl sm:text-2xl font-bold tracking-tight text-bakery-cocoa leading-none">
+              J&amp;J Bakery
+            </span>
+            <span class="block text-[11px] uppercase tracking-[0.2em] text-bakery-goldDark font-semibold mt-1">
+              Repostería Artesanal
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden lg:flex items-center gap-7 text-sm font-medium text-bakery-mocha">
+          <a href="#inicio" class="hover:text-bakery-cocoa transition-colors py-2 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-bakery-gold hover:after:w-full after:transition-all">Inicio</a>
+          <a href="#nosotros" class="hover:text-bakery-cocoa transition-colors py-2 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-bakery-gold hover:after:w-full after:transition-all">Nosotros</a>
+          <a href="#proceso" class="hover:text-bakery-cocoa transition-colors py-2 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-bakery-gold hover:after:w-full after:transition-all">Proceso</a>
+          <a href="#catalogo" class="hover:text-bakery-cocoa transition-colors py-2 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-bakery-gold hover:after:w-full after:transition-all font-semibold text-bakery-cocoa">Catálogo</a>
+          <a href="#galeria" class="hover:text-bakery-cocoa transition-colors py-2 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-bakery-gold hover:after:w-full after:transition-all">Galería</a>
+          <a href="#cotizar" class="hover:text-bakery-cocoa transition-colors py-2 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-bakery-gold hover:after:w-full after:transition-all">Cotizar</a>
+          <a href="#contacto" class="hover:text-bakery-cocoa transition-colors py-2 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-bakery-gold hover:after:w-full after:transition-all">Contacto</a>
+        </nav>
+
+        <!-- Right Actions: Cart & Mobile Menu -->
+        <div class="flex items-center gap-2 sm:gap-3">
+          <!-- Direct WhatsApp Desktop Pill -->
+          <a 
+            href="https://wa.me/50433976900?text=Hola%20%F0%9F%98%8A%2C%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20sobre%20los%20pasteles%20de%20J%26J%20Bakery." 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="hidden sm:inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-bakery-beige/80 hover:bg-bakery-blush/60 text-bakery-cocoa text-xs font-semibold transition-all duration-300 border border-bakery-gold/30"
+          >
+            <i data-lucide="message-circle" class="w-4 h-4 text-bakery-whatsappDark"></i>
+            <span>+504 3397-6900</span>
+          </a>
+
+          <!-- Shopping Cart Button -->
+          <button 
+            id="open-cart-btn"
+            onclick="toggleCart(true)"
+            aria-label="Abrir carrito de compras"
+            class="relative inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-bakery-cocoa text-bakery-white hover:bg-bakery-mocha transition-all duration-300 shadow-soft cursor-pointer"
+          >
+            <i data-lucide="shopping-bag" class="w-4 h-4 text-bakery-gold"></i>
+            <span class="text-xs sm:text-sm font-semibold hidden xs:inline">Carrito</span>
+            <span 
+              id="cart-count-badge" 
+              class="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 text-xs font-bold rounded-full bg-bakery-gold text-bakery-cocoa transition-transform duration-300"
+            >
+              0
+            </span>
+          </button>
+
+          <!-- Mobile Hamburger Menu Button -->
+          <button 
+            id="mobile-menu-btn"
+            onclick="toggleMobileMenu()"
+            aria-label="Abrir menú de navegación"
+            class="lg:hidden p-2.5 rounded-xl bg-white border border-bakery-beige text-bakery-cocoa hover:bg-bakery-beige/50 transition-colors"
+          >
+            <i data-lucide="menu" id="mobile-menu-icon" class="w-5 h-5"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Navigation -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-bakery-beige px-4 pt-3 pb-6 shadow-premium">
+      <nav class="flex flex-col space-y-2 text-base font-medium text-bakery-cocoa">
+        <a href="#inicio" onclick="toggleMobileMenu(false)" class="px-4 py-2.5 rounded-xl hover:bg-bakery-cream transition-colors">Inicio</a>
+        <a href="#nosotros" onclick="toggleMobileMenu(false)" class="px-4 py-2.5 rounded-xl hover:bg-bakery-cream transition-colors">Quiénes Somos</a>
+        <a href="#proceso" onclick="toggleMobileMenu(false)" class="px-4 py-2.5 rounded-xl hover:bg-bakery-cream transition-colors">Nuestro Proceso</a>
+        <a href="#catalogo" onclick="toggleMobileMenu(false)" class="px-4 py-2.5 rounded-xl bg-bakery-cream text-bakery-goldDark font-semibold">Catálogo de Pasteles</a>
+        <a href="#galeria" onclick="toggleMobileMenu(false)" class="px-4 py-2.5 rounded-xl hover:bg-bakery-cream transition-colors">Galería de Trabajos</a>
+        <a href="#cotizar" onclick="toggleMobileMenu(false)" class="px-4 py-2.5 rounded-xl hover:bg-bakery-cream transition-colors">Cotiza tu Pastel</a>
+        <a href="#contacto" onclick="toggleMobileMenu(false)" class="px-4 py-2.5 rounded-xl hover:bg-bakery-cream transition-colors">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================================================================== -->
+  <!-- HERO SECTION                                                          -->
+  <!-- ===================================================================== -->
+  <section id="inicio" class="relative overflow-hidden pt-8 pb-16 sm:pt-14 sm:pb-24 lg:pt-20 lg:pb-28">
+    <!-- Subtle Atmospheric Background Image (Complementary only) -->
+    <div class="absolute inset-0 z-0 opacity-[0.07] pointer-events-none">
+      <img 
+        src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1800&q=80" 
+        alt="Fondo decorativo de repostería artesanal" 
+        class="w-full h-full object-cover"
+      />
+    </div>
+    
+    <!-- Decorative Soft Pastel Blobs -->
+    <div class="absolute -top-24 -right-24 w-96 h-96 bg-bakery-blush/50 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute top-1/2 -left-24 w-80 h-80 bg-bakery-beige rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-10 items-center">
+        
+        <!-- Left Editorial Copy -->
+        <div class="lg:col-span-6 text-center lg:text-left">
+          <!-- Brand Emblem Pill -->
+          <div class="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white border border-bakery-gold/40 shadow-soft mb-6">
+            <img 
+              src="https://lh3.googleusercontent.com/d/1CCz9v4uoxJ3SoDoB027vy_YxRaAlCJla" 
+              alt="J&J Bakery" 
+              class="w-7 h-7 rounded-full object-cover border border-bakery-gold/50"
+              onerror="this.style.display='none'"
+            />
+            <span class="text-xs sm:text-sm font-semibold tracking-wide text-bakery-cocoa">
+              J&amp;J Bakery • Villanueva, Cortés
+            </span>
+          </div>
+
+          <!-- Main Slogan -->
+          <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-bakery-cocoa leading-[1.12] tracking-tight mb-6">
+            Creamos el sabor de tus <span class="italic text-bakery-goldDark relative inline-block">mejores recuerdos
+              <svg class="w-full h-2.5 text-bakery-blushDark/80 -mt-1" viewBox="0 0 200 12" fill="none" preserveAspectRatio="none">
+                <path d="M2 9C55 2 145 2 198 9" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+              </svg>
+            </span>
+          </h1>
+
+          <!-- Subtitle -->
+          <p class="text-base sm:text-lg text-bakery-mocha leading-relaxed max-w-xl mx-auto lg:mx-0 mb-8">
+            Pasteles artesanales personalizados para cada ocasión especial en Villanueva, Cortés. Diseñamos piezas únicas llenas de dulzura, detalle y dedicación para celebrar tus momentos inolvidables.
+          </p>
+
+          <!-- Primary CTA Buttons -->
+          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-10">
+            <a 
+              href="#catalogo" 
+              class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-full bg-bakery-cocoa text-bakery-white font-semibold text-sm sm:text-base hover:bg-bakery-mocha transition-all duration-300 shadow-premium hover:-translate-y-0.5"
+            >
+              <span>Ver Catálogo</span>
+              <i data-lucide="arrow-down-right" class="w-5 h-5 text-bakery-gold"></i>
+            </a>
+
+            <a 
+              href="https://wa.me/50433976900?text=Hola%20%F0%9F%98%8A%20Vengo%20de%20la%20p%C3%A1gina%20web%20de%20J%26J%20Bakery%20y%20me%20gustar%C3%ADa%20hacer%20un%20pedido%20o%20cotizaci%C3%B3n." 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-full bg-bakery-whatsapp hover:bg-bakery-whatsappDark text-white font-semibold text-sm sm:text-base transition-all duration-300 shadow-soft hover:-translate-y-0.5"
+            >
+              <i data-lucide="message-circle" class="w-5 h-5"></i>
+              <span>Pedir por WhatsApp</span>
+            </a>
+          </div>
+
+          <!-- Trust Mini Metrics -->
+          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-6 pt-4 border-t border-bakery-beige text-xs sm:text-sm text-bakery-mocha">
+            <div class="flex items-center gap-2">
+              <div class="flex text-bakery-gold">
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              </div>
+              <span class="font-semibold text-bakery-cocoa">Clientes Felices</span>
+            </div>
+            <span class="text-bakery-beige">•</span>
+            <div class="flex items-center gap-1.5">
+              <i data-lucide="award" class="w-4 h-4 text-bakery-goldDark"></i>
+              <span>100% Personalizado &amp; Artesanal</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Visual Showcase (Real J&J Bakery Creations) -->
+        <div class="lg:col-span-6 relative">
+          <div class="relative mx-auto max-w-lg lg:max-w-none">
+            <!-- Main Featured Real Cake Frame -->
+            <div class="relative rounded-[2rem] overflow-hidden bg-white p-3 shadow-premium border border-bakery-beige">
+              <div class="relative aspect-[4/4.3] rounded-[1.5rem] overflow-hidden bg-bakery-beige/40">
+                <img 
+                  src="https://lh3.googleusercontent.com/d/1j6PdWVox7YTbEiX5xBp-kHicVCHXxHmZ" 
+                  alt="Pastel Elegante artesanal por J&J Bakery" 
+                  class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-bakery-cocoa/65 via-transparent to-transparent"></div>
+                
+                <!-- Bottom Caption inside Hero Image -->
+                <div class="absolute bottom-5 left-5 right-5 flex items-end justify-between text-white">
+                  <div>
+                    <span class="inline-block px-3 py-1 rounded-full bg-bakery-gold text-bakery-cocoa text-[11px] font-bold uppercase tracking-wider mb-1.5">
+                      Creación Destacada
+                    </span>
+                    <h2 class="font-serif text-xl sm:text-2xl font-bold">Pastel Elegante</h2>
+                    <p class="text-xs text-bakery-cream/90">Diseño artesanal exclusivo • Disponible</p>
+                  </div>
+                  <button 
+                    onclick="openProductModal(4)"
+                    class="px-4 py-2 rounded-full bg-white/95 text-bakery-cocoa text-xs font-bold hover:bg-bakery-gold transition-colors shadow-md cursor-pointer"
+                  >
+                    Ver L. 3,500
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating Secondary Real Cake Card (Top Left) -->
+            <div 
+              onclick="openProductModal(3)"
+              class="hidden sm:flex items-center gap-3 p-3 rounded-2xl bg-white/95 backdrop-blur-md shadow-premium border border-bakery-beige absolute -top-6 -left-6 cursor-pointer hover:scale-105 transition-transform animate-float"
+            >
+              <img 
+                src="https://lh3.googleusercontent.com/d/1gPm8dUDGtrHZkGjp6aJGTg6SfrlRhpm-" 
+                alt="Pastel Quinceaños J&J Bakery" 
+                class="w-14 h-14 rounded-xl object-cover"
+              />
+              <div class="pr-2">
+                <span class="text-[10px] font-bold uppercase tracking-wider text-bakery-goldDark block">Quinceaños</span>
+                <p class="font-serif font-bold text-sm text-bakery-cocoa">Pastel Quinceaños</p>
+                <p class="text-xs font-semibold text-bakery-mocha">L. 2,500</p>
+              </div>
+            </div>
+
+            <!-- Floating Brand Seal (Bottom Right) -->
+            <div class="hidden sm:flex items-center gap-3 p-3.5 rounded-2xl bg-bakery-cocoa text-bakery-cream shadow-premium border border-bakery-gold/40 absolute -bottom-5 -right-4">
+              <div class="w-11 h-11 rounded-full overflow-hidden border border-bakery-gold bg-white shrink-0">
+                <img 
+                  src="https://lh3.googleusercontent.com/d/1CCz9v4uoxJ3SoDoB027vy_YxRaAlCJla" 
+                  alt="Sello J&J Bakery" 
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <div class="pr-1">
+                <p class="text-xs font-bold text-bakery-gold">Hecho con Amor</p>
+                <p class="text-[11px] text-bakery-beige">Villanueva, Cortés, HN</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 6 Key Value Propositions Strip -->
+      <div class="mt-16 sm:mt-20 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
+        <div class="bg-white/90 border border-bakery-beige rounded-2xl p-4 flex flex-col items-center text-center shadow-soft hover:border-bakery-gold/60 transition-all">
+          <div class="w-10 h-10 rounded-full bg-bakery-blush/50 text-bakery-cocoa flex items-center justify-center mb-2.5">
+            <i data-lucide="palette" class="w-5 h-5 text-bakery-goldDark"></i>
+          </div>
+          <span class="text-xs sm:text-sm font-semibold text-bakery-cocoa">Diseños personalizados</span>
+        </div>
+
+        <div class="bg-white/90 border border-bakery-beige rounded-2xl p-4 flex flex-col items-center text-center shadow-soft hover:border-bakery-gold/60 transition-all">
+          <div class="w-10 h-10 rounded-full bg-bakery-blush/50 text-bakery-cocoa flex items-center justify-center mb-2.5">
+            <i data-lucide="heart-handshake" class="w-5 h-5 text-bakery-goldDark"></i>
+          </div>
+          <span class="text-xs sm:text-sm font-semibold text-bakery-cocoa">Elaboración artesanal</span>
+        </div>
+
+        <div class="bg-white/90 border border-bakery-beige rounded-2xl p-4 flex flex-col items-center text-center shadow-soft hover:border-bakery-gold/60 transition-all">
+          <div class="w-10 h-10 rounded-full bg-bakery-blush/50 text-bakery-cocoa flex items-center justify-center mb-2.5">
+            <i data-lucide="sparkles" class="w-5 h-5 text-bakery-goldDark"></i>
+          </div>
+          <span class="text-xs sm:text-sm font-semibold text-bakery-cocoa">Ingredientes de calidad</span>
+        </div>
+
+        <div class="bg-white/90 border border-bakery-beige rounded-2xl p-4 flex flex-col items-center text-center shadow-soft hover:border-bakery-gold/60 transition-all">
+          <div class="w-10 h-10 rounded-full bg-bakery-blush/50 text-bakery-cocoa flex items-center justify-center mb-2.5">
+            <i data-lucide="clock-check" class="w-5 h-5 text-bakery-goldDark"></i>
+          </div>
+          <span class="text-xs sm:text-sm font-semibold text-bakery-cocoa">Entregas puntuales</span>
+        </div>
+
+        <div class="bg-white/90 border border-bakery-beige rounded-2xl p-4 flex flex-col items-center text-center shadow-soft hover:border-bakery-gold/60 transition-all">
+          <div class="w-10 h-10 rounded-full bg-bakery-blush/50 text-bakery-cocoa flex items-center justify-center mb-2.5">
+            <i data-lucide="message-square-heart" class="w-5 h-5 text-bakery-goldDark"></i>
+          </div>
+          <span class="text-xs sm:text-sm font-semibold text-bakery-cocoa">Atención personalizada</span>
+        </div>
+
+        <div class="bg-white/90 border border-bakery-beige rounded-2xl p-4 flex flex-col items-center text-center shadow-soft hover:border-bakery-gold/60 transition-all">
+          <div class="w-10 h-10 rounded-full bg-bakery-blush/50 text-bakery-cocoa flex items-center justify-center mb-2.5">
+            <i data-lucide="cake" class="w-5 h-5 text-bakery-goldDark"></i>
+          </div>
+          <span class="text-xs sm:text-sm font-semibold text-bakery-cocoa">Pasteles para toda ocasión</span>
+        </div>
+      </div>
+
+      <!-- Featured Quick-Access Strip (Real Catalog Preview) -->
+      <div class="mt-14 pt-10 border-t border-bakery-beige/80">
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-6 gap-2">
+          <div>
+            <span class="text-xs font-bold uppercase tracking-[0.2em] text-bakery-goldDark">Selección de la Casa</span>
+            <h2 class="font-serif text-2xl sm:text-3xl font-bold text-bakery-cocoa">Pasteles Destacados</h2>
+          </div>
+          <a href="#catalogo" class="text-sm font-semibold text-bakery-goldDark hover:text-bakery-cocoa inline-flex items-center gap-1 transition-colors">
+            <span>Explorar catálogo completo</span>
+            <i data-lucide="chevron-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+        <div id="hero-featured-strip" class="grid grid-cols-1 sm:grid-cols-3 gap-5">
+          <!-- Populated dynamically from the 5 real products -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- QUIÉNES SOMOS (ABOUT US)                                              -->
+  <!-- ===================================================================== -->
+  <section id="nosotros" class="py-16 sm:py-24 bg-white border-y border-bakery-beige/70">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Photo Collage (Real Catalog Photos) -->
+        <div class="lg:col-span-6">
+          <div class="grid grid-cols-2 gap-4">
+            <div class="space-y-4">
+              <div class="rounded-3xl overflow-hidden shadow-soft border border-bakery-beige aspect-[4/5]">
+                <img 
+                  src="https://lh3.googleusercontent.com/d/1gPm8dUDGtrHZkGjp6aJGTg6SfrlRhpm-" 
+                  alt="Pastel Quinceaños artesanal J&J Bakery" 
+                  class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div class="rounded-3xl overflow-hidden shadow-soft border border-bakery-beige aspect-square">
+                <img 
+                  src="https://lh3.googleusercontent.com/d/1WSUlB74IromvgUrxg4U0JcTj-R388Mpl" 
+                  alt="Pastel Vaquero personalizado J&J Bakery" 
+                  class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+            </div>
+            <div class="space-y-4 pt-6 sm:pt-10">
+              <div class="rounded-3xl overflow-hidden shadow-soft border border-bakery-beige aspect-square">
+                <img 
+                  src="https://lh3.googleusercontent.com/d/1S4jR--Y8TFl80MsjBpXRLcqPNZyUQ0Df" 
+                  alt="Pastel Premium J&J Bakery" 
+                  class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div class="rounded-3xl overflow-hidden shadow-soft border border-bakery-beige aspect-[4/5]">
+                <img 
+                  src="https://lh3.googleusercontent.com/d/1MPJPwozyd7P6CO73HLFFraqYOu_-1Htk" 
+                  alt="Pastel Vegeta temático J&J Bakery" 
+                  class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Warm Story & Pillars -->
+        <div class="lg:col-span-6">
+          <span class="inline-block px-3.5 py-1 rounded-full bg-bakery-blush/50 text-bakery-cocoa text-xs font-bold uppercase tracking-widest mb-4">
+            Nuestra Esencia
+          </span>
+          <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-bakery-cocoa leading-tight mb-6">
+            Pasión artesanal que endulza tus momentos más especiales
+          </h2>
+          <p class="text-base sm:text-lg text-bakery-mocha leading-relaxed mb-5">
+            <strong class="text-bakery-cocoa font-semibold">J&amp;J Bakery</strong> nace con la pasión de crear pasteles únicos que convierten celebraciones especiales en recuerdos inolvidables. Desde nuestro taller en <strong class="text-bakery-cocoa font-semibold">Villanueva, Cortés</strong>, cuidamos cada textura, color y acabado como una verdadera obra de arte comestible.
+          </p>
+          <p class="text-sm sm:text-base text-bakery-mocha leading-relaxed mb-8">
+            Acompañamos a las familias hondureñas en cada etapa importante: <span class="text-bakery-cocoa font-medium">Cumpleaños, Bodas, Quince años, Baby Shower, Graduaciones, Aniversarios, Eventos corporativos, Celebraciones familiares y Fechas especiales</span>.
+          </p>
+
+          <!-- 6 Pillars Grid -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+            <div class="flex items-start gap-3 p-3.5 rounded-2xl bg-bakery-cream border border-bakery-beige">
+              <div class="w-8 h-8 rounded-lg bg-white flex items-center justify-center shrink-0 shadow-xs text-bakery-goldDark">
+                <i data-lucide="sparkles" class="w-4 h-4"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-sm text-bakery-cocoa">Trabajo artesanal</h3>
+                <p class="text-xs text-bakery-mocha mt-0.5">Decoración detallada hecha a mano.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 p-3.5 rounded-2xl bg-bakery-cream border border-bakery-beige">
+              <div class="w-8 h-8 rounded-lg bg-white flex items-center justify-center shrink-0 shadow-xs text-bakery-goldDark">
+                <i data-lucide="user-check" class="w-4 h-4"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-sm text-bakery-cocoa">Atención personalizada</h3>
+                <p class="text-xs text-bakery-mocha mt-0.5">Te asesoramos de principio a fin.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 p-3.5 rounded-2xl bg-bakery-cream border border-bakery-beige">
+              <div class="w-8 h-8 rounded-lg bg-white flex items-center justify-center shrink-0 shadow-xs text-bakery-goldDark">
+                <i data-lucide="crown" class="w-4 h-4"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-sm text-bakery-cocoa">Diseños exclusivos</h3>
+                <p class="text-xs text-bakery-mocha mt-0.5">Adaptados a la temática de tu evento.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 p-3.5 rounded-2xl bg-bakery-cream border border-bakery-beige">
+              <div class="w-8 h-8 rounded-lg bg-white flex items-center justify-center shrink-0 shadow-xs text-bakery-goldDark">
+                <i data-lucide="shield-check" class="w-4 h-4"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-sm text-bakery-cocoa">Calidad en ingredientes</h3>
+                <p class="text-xs text-bakery-mocha mt-0.5">Frescura y sabor en cada rebanada.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 p-3.5 rounded-2xl bg-bakery-cream border border-bakery-beige">
+              <div class="w-8 h-8 rounded-lg bg-white flex items-center justify-center shrink-0 shadow-xs text-bakery-goldDark">
+                <i data-lucide="heart" class="w-4 h-4"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-sm text-bakery-cocoa">Compromiso con el cliente</h3>
+                <p class="text-xs text-bakery-mocha mt-0.5">Puntualidad y responsabilidad garantizada.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 p-3.5 rounded-2xl bg-bakery-cream border border-bakery-beige">
+              <div class="w-8 h-8 rounded-lg bg-white flex items-center justify-center shrink-0 shadow-xs text-bakery-goldDark">
+                <i data-lucide="wand-2" class="w-4 h-4"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-sm text-bakery-cocoa">Experiencia en personalización</h3>
+                <p class="text-xs text-bakery-mocha mt-0.5">Hacemos realidad cualquier idea creativa.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap items-center gap-4">
+            <a href="#cotizar" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-bakery-cocoa text-white text-sm font-semibold hover:bg-bakery-mocha transition-colors shadow-soft">
+              <span>Cotizar mi idea</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 text-bakery-gold"></i>
+            </a>
+            <a href="https://www.facebook.com/search/top?q=Reposter%C3%ADa%20J%26J" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-3.5 rounded-full bg-bakery-beige/70 text-bakery-cocoa text-sm font-semibold hover:bg-bakery-blush/50 transition-colors">
+              <i data-lucide="facebook" class="w-4 h-4 text-blue-600"></i>
+              <span>Repostería J&amp;J</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- NUESTRO PROCESO (6 ILLUSTRATED STEPS)                                 -->
+  <!-- ===================================================================== -->
+  <section id="proceso" class="py-16 sm:py-24 bg-bakery-cream relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <span class="inline-block px-3.5 py-1 rounded-full bg-white border border-bakery-gold/40 text-bakery-goldDark text-xs font-bold uppercase tracking-widest mb-3">
+          Paso a Paso
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-bakery-cocoa mb-4">
+          Nuestro Proceso Artesanal
+        </h2>
+        <p class="text-bakery-mocha text-sm sm:text-base">
+          Hacemos que ordenar tu pastel personalizado sea una experiencia sencilla, cercana y emocionante desde el primer mensaje.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <!-- Step 1 -->
+        <div class="group bg-white rounded-3xl p-7 border border-bakery-beige shadow-soft hover:shadow-premium hover:-translate-y-1 transition-all duration-300 relative">
+          <span class="absolute top-6 right-7 font-serif text-4xl font-bold text-bakery-beige group-hover:text-bakery-blush transition-colors">01</span>
+          <div class="w-14 h-14 rounded-2xl bg-bakery-cream border border-bakery-gold/30 flex items-center justify-center text-bakery-goldDark mb-5 group-hover:bg-bakery-cocoa group-hover:text-bakery-gold transition-colors">
+            <i data-lucide="file-text" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-serif text-xl font-bold text-bakery-cocoa mb-2">Solicita tu cotización</h3>
+          <p class="text-sm text-bakery-mocha leading-relaxed">
+            Elige un diseño de nuestro catálogo o envíanos los detalles de tu evento mediante nuestro formulario o WhatsApp.
+          </p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="group bg-white rounded-3xl p-7 border border-bakery-beige shadow-soft hover:shadow-premium hover:-translate-y-1 transition-all duration-300 relative">
+          <span class="absolute top-6 right-7 font-serif text-4xl font-bold text-bakery-beige group-hover:text-bakery-blush transition-colors">02</span>
+          <div class="w-14 h-14 rounded-2xl bg-bakery-cream border border-bakery-gold/30 flex items-center justify-center text-bakery-goldDark mb-5 group-hover:bg-bakery-cocoa group-hover:text-bakery-gold transition-colors">
+            <i data-lucide="lightbulb" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-serif text-xl font-bold text-bakery-cocoa mb-2">Comparte tu idea o temática</h3>
+          <p class="text-sm text-bakery-mocha leading-relaxed">
+            Cuéntanos los colores, personajes, estilo de celebración y cantidad de invitados que deseas sorprender.
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="group bg-white rounded-3xl p-7 border border-bakery-beige shadow-soft hover:shadow-premium hover:-translate-y-1 transition-all duration-300 relative">
+          <span class="absolute top-6 right-7 font-serif text-4xl font-bold text-bakery-beige group-hover:text-bakery-blush transition-colors">03</span>
+          <div class="w-14 h-14 rounded-2xl bg-bakery-cream border border-bakery-gold/30 flex items-center justify-center text-bakery-goldDark mb-5 group-hover:bg-bakery-cocoa group-hover:text-bakery-gold transition-colors">
+            <i data-lucide="pen-tool" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-serif text-xl font-bold text-bakery-cocoa mb-2">Diseñamos tu pastel</h3>
+          <p class="text-sm text-bakery-mocha leading-relaxed">
+            Definimos juntos la estética, estructura y detalles personalizados para lograr un resultado armonioso y único.
+          </p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="group bg-white rounded-3xl p-7 border border-bakery-beige shadow-soft hover:shadow-premium hover:-translate-y-1 transition-all duration-300 relative">
+          <span class="absolute top-6 right-7 font-serif text-4xl font-bold text-bakery-beige group-hover:text-bakery-blush transition-colors">04</span>
+          <div class="w-14 h-14 rounded-2xl bg-bakery-cream border border-bakery-gold/30 flex items-center justify-center text-bakery-goldDark mb-5 group-hover:bg-bakery-cocoa group-hover:text-bakery-gold transition-colors">
+            <i data-lucide="chef-hat" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-serif text-xl font-bold text-bakery-cocoa mb-2">Elaboración artesanal</h3>
+          <p class="text-sm text-bakery-mocha leading-relaxed">
+            Horneamos y decoramos cuidadosamente tu pastel utilizando ingredientes frescos y técnicas de alta repostería.
+          </p>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="group bg-white rounded-3xl p-7 border border-bakery-beige shadow-soft hover:shadow-premium hover:-translate-y-1 transition-all duration-300 relative">
+          <span class="absolute top-6 right-7 font-serif text-4xl font-bold text-bakery-beige group-hover:text-bakery-blush transition-colors">05</span>
+          <div class="w-14 h-14 rounded-2xl bg-bakery-cream border border-bakery-gold/30 flex items-center justify-center text-bakery-goldDark mb-5 group-hover:bg-bakery-cocoa group-hover:text-bakery-gold transition-colors">
+            <i data-lucide="package-check" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-serif text-xl font-bold text-bakery-cocoa mb-2">Entrega o retiro</h3>
+          <p class="text-sm text-bakery-mocha leading-relaxed">
+            Coordinamos puntualmente el retiro o entrega en Villanueva, Cortés para que tu pastel llegue impecable.
+          </p>
+        </div>
+
+        <!-- Step 6 -->
+        <div class="group bg-white rounded-3xl p-7 border border-bakery-beige shadow-soft hover:shadow-premium hover:-translate-y-1 transition-all duration-300 relative">
+          <span class="absolute top-6 right-7 font-serif text-4xl font-bold text-bakery-beige group-hover:text-bakery-blush transition-colors">06</span>
+          <div class="w-14 h-14 rounded-2xl bg-bakery-cream border border-bakery-gold/30 flex items-center justify-center text-bakery-goldDark mb-5 group-hover:bg-bakery-cocoa group-hover:text-bakery-gold transition-colors">
+            <i data-lucide="party-popper" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-serif text-xl font-bold text-bakery-cocoa mb-2">Celebración</h3>
+          <p class="text-sm text-bakery-mocha leading-relaxed">
+            Disfruta el momento mágico junto a tus seres queridos con el sabor y presentación que siempre soñaste.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- CATÁLOGO / TIENDA INTERACTIVA                                         -->
+  <!-- ===================================================================== -->
+  <section id="catalogo" class="py-16 sm:py-24 bg-white border-t border-bakery-beige/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="inline-block px-3.5 py-1 rounded-full bg-bakery-blush/50 text-bakery-cocoa text-xs font-bold uppercase tracking-widest mb-3">
+          Tienda en Línea
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-bakery-cocoa mb-4">
+          Catálogo de Pasteles Artesanales
+        </h2>
+        <p class="text-bakery-mocha text-sm sm:text-base">
+          Explora nuestras creaciones disponibles. Puedes ver los detalles de cada diseño, agregarlos a tu carrito para cotizar varios a la vez o pedir directamente por WhatsApp.
+        </p>
+      </div>
+
+      <!-- Search, Category Filter & Sort Toolbar -->
+      <div class="bg-bakery-cream rounded-3xl p-4 sm:p-6 border border-bakery-beige shadow-soft mb-10">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-4 items-center">
+          
+          <!-- Search Input -->
+          <div class="md:col-span-5 relative">
+            <i data-lucide="search" class="w-4 h-4 text-bakery-mocha absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+            <input 
+              type="text" 
+              id="catalog-search"
+              oninput="filterAndRenderCatalog()"
+              placeholder="Buscar pastel por nombre o categoría..." 
+              class="w-full pl-11 pr-4 py-3 rounded-2xl bg-white border border-bakery-beige text-sm text-bakery-cocoa placeholder:text-bakery-mocha/60 focus:outline-none focus:border-bakery-gold transition-colors"
+            />
+          </div>
+
+          <!-- Category Pills (Desktop/Tablet) or Select -->
+          <div class="md:col-span-4">
+            <label for="catalog-category" class="sr-only">Filtrar por categoría</label>
+            <div class="relative">
+              <i data-lucide="tag" class="w-4 h-4 text-bakery-goldDark absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+              <select 
+                id="catalog-category"
+                onchange="filterAndRenderCatalog()"
+                class="w-full pl-11 pr-8 py-3 rounded-2xl bg-white border border-bakery-beige text-sm font-medium text-bakery-cocoa focus:outline-none focus:border-bakery-gold appearance-none cursor-pointer"
+              >
+                <option value="Todas">Categoría: Todas (5)</option>
+                <option value="Cumpleaños">Cumpleaños</option>
+                <option value="Temático">Temático</option>
+                <option value="Quinceaños">Quinceaños</option>
+                <option value="Premium">Premium</option>
+                <option value="Especial">Especial</option>
+              </select>
+              <i data-lucide="chevron-down" class="w-4 h-4 text-bakery-mocha absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+            </div>
+          </div>
+
+          <!-- Sort Selector -->
+          <div class="md:col-span-3">
+            <label for="catalog-sort" class="sr-only">Ordenar por</label>
+            <div class="relative">
+              <i data-lucide="arrow-up-down" class="w-4 h-4 text-bakery-goldDark absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+              <select 
+                id="catalog-sort"
+                onchange="filterAndRenderCatalog()"
+                class="w-full pl-11 pr-8 py-3 rounded-2xl bg-white border border-bakery-beige text-sm font-medium text-bakery-cocoa focus:outline-none focus:border-bakery-gold appearance-none cursor-pointer"
+              >
+                <option value="default">Ordenar: Destacados</option>
+                <option value="price-asc">Precio: Menor a Mayor</option>
+                <option value="price-desc">Precio: Mayor a Menor</option>
+                <option value="name-asc">Nombre: A - Z</option>
+              </select>
+              <i data-lucide="chevron-down" class="w-4 h-4 text-bakery-mocha absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Category Filter Chips -->
+        <div class="flex flex-wrap items-center gap-2 mt-4 pt-4 border-t border-bakery-beige/70" id="category-chips">
+          <button onclick="setCategoryChip('Todas')" data-cat="Todas" class="cat-chip active px-4 py-1.5 rounded-full text-xs font-semibold bg-bakery-cocoa text-white transition-all cursor-pointer">Todas</button>
+          <button onclick="setCategoryChip('Cumpleaños')" data-cat="Cumpleaños" class="cat-chip px-4 py-1.5 rounded-full text-xs font-semibold bg-white text-bakery-mocha border border-bakery-beige hover:border-bakery-gold transition-all cursor-pointer">Cumpleaños</button>
+          <button onclick="setCategoryChip('Temático')" data-cat="Temático" class="cat-chip px-4 py-1.5 rounded-full text-xs font-semibold bg-white text-bakery-mocha border border-bakery-beige hover:border-bakery-gold transition-all cursor-pointer">Temático</button>
+          <button onclick="setCategoryChip('Quinceaños')" data-cat="Quinceaños" class="cat-chip px-4 py-1.5 rounded-full text-xs font-semibold bg-white text-bakery-mocha border border-bakery-beige hover:border-bakery-gold transition-all cursor-pointer">Quinceaños</button>
+          <button onclick="setCategoryChip('Premium')" data-cat="Premium" class="cat-chip px-4 py-1.5 rounded-full text-xs font-semibold bg-white text-bakery-mocha border border-bakery-beige hover:border-bakery-gold transition-all cursor-pointer">Premium</button>
+          <button onclick="setCategoryChip('Especial')" data-cat="Especial" class="cat-chip px-4 py-1.5 rounded-full text-xs font-semibold bg-white text-bakery-mocha border border-bakery-beige hover:border-bakery-gold transition-all cursor-pointer">Especial</button>
+        </div>
+      </div>
+
+      <!-- Product Grid Container -->
+      <div id="catalog-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Dynamically rendered from exact 5 J&J Bakery products -->
+      </div>
+
+      <!-- Empty Search State -->
+      <div id="catalog-empty" class="hidden text-center py-14 px-4 bg-bakery-cream rounded-3xl border border-bakery-beige">
+        <div class="w-14 h-14 rounded-full bg-white flex items-center justify-center mx-auto mb-3 text-bakery-goldDark shadow-soft">
+          <i data-lucide="search-x" class="w-6 h-6"></i>
+        </div>
+        <h3 class="font-serif text-xl font-bold text-bakery-cocoa mb-1">No encontramos coincidencias</h3>
+        <p class="text-sm text-bakery-mocha mb-4">Intenta con otro término o restablece los filtros del catálogo.</p>
+        <button onclick="resetCatalogFilters()" class="px-6 py-2.5 rounded-full bg-bakery-cocoa text-white text-xs font-semibold hover:bg-bakery-mocha transition-colors cursor-pointer">
+          Mostrar todos los pasteles
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- GALERÍA DE TRABAJOS (MASONRY + LIGHTBOX)                              -->
+  <!-- ===================================================================== -->
+  <section id="galeria" class="py-16 sm:py-24 bg-bakery-cream border-t border-bakery-beige/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+        <div>
+          <span class="inline-block px-3.5 py-1 rounded-full bg-white border border-bakery-gold/40 text-bakery-goldDark text-xs font-bold uppercase tracking-widest mb-3">
+            Portafolio Real
+          </span>
+          <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-bakery-cocoa">
+            Galería de Trabajos
+          </h2>
+        </div>
+        <p class="text-sm sm:text-base text-bakery-mocha max-w-md">
+          Haz clic en cualquier fotografía para apreciarla en pantalla completa y conocer los detalles de cada creación artesanal.
+        </p>
+      </div>
+
+      <!-- Masonry Container -->
+      <div id="masonry-gallery" class="masonry-grid">
+        <!-- Rendered dynamically from real J&J Bakery images -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- TESTIMONIOS DE CLIENTES                                               -->
+  <!-- ===================================================================== -->
+  <section class="py-16 sm:py-24 bg-white border-t border-bakery-beige/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <span class="inline-block px-3.5 py-1 rounded-full bg-bakery-blush/50 text-bakery-cocoa text-xs font-bold uppercase tracking-widest mb-3">
+          Confianza y Dulzura
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-bakery-cocoa mb-3">
+          Lo que dicen nuestros clientes
+        </h2>
+        <p class="text-sm sm:text-base text-bakery-mocha">
+          Cada celebración en Villanueva, Cortés es nuestra mejor carta de presentación.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Testimonial 1 -->
+        <div class="bg-bakery-cream rounded-3xl p-7 border border-bakery-beige shadow-soft flex flex-col justify-between hover:-translate-y-1 transition-transform duration-300">
+          <div>
+            <div class="flex items-center gap-1 text-bakery-gold mb-4 text-lg" aria-label="5 de 5 estrellas">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="font-serif italic text-lg text-bakery-cocoa leading-relaxed mb-6">
+              “El pastel quedó exactamente como lo imaginamos.”
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-bakery-beige/80">
+            <div class="w-9 h-9 rounded-full bg-bakery-blush text-bakery-cocoa font-bold text-xs flex items-center justify-center">
+              CM
+            </div>
+            <div>
+              <p class="text-xs font-bold text-bakery-cocoa">Cliente Verificado</p>
+              <p class="text-[11px] text-bakery-mocha">Villanueva, Cortés</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="bg-bakery-cream rounded-3xl p-7 border border-bakery-beige shadow-soft flex flex-col justify-between hover:-translate-y-1 transition-transform duration-300">
+          <div>
+            <div class="flex items-center gap-1 text-bakery-gold mb-4 text-lg" aria-label="5 de 5 estrellas">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="font-serif italic text-lg text-bakery-cocoa leading-relaxed mb-6">
+              “Excelente sabor y presentación.”
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-bakery-beige/80">
+            <div class="w-9 h-9 rounded-full bg-bakery-beige text-bakery-cocoa font-bold text-xs flex items-center justify-center">
+              AR
+            </div>
+            <div>
+              <p class="text-xs font-bold text-bakery-cocoa">Cliente Verificado</p>
+              <p class="text-[11px] text-bakery-mocha">Celebración Familiar</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="bg-bakery-cream rounded-3xl p-7 border border-bakery-beige shadow-soft flex flex-col justify-between hover:-translate-y-1 transition-transform duration-300">
+          <div>
+            <div class="flex items-center gap-1 text-bakery-gold mb-4 text-lg" aria-label="5 de 5 estrellas">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="font-serif italic text-lg text-bakery-cocoa leading-relaxed mb-6">
+              “Muy profesionales y puntuales.”
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-bakery-beige/80">
+            <div class="w-9 h-9 rounded-full bg-bakery-blush text-bakery-cocoa font-bold text-xs flex items-center justify-center">
+              LG
+            </div>
+            <div>
+              <p class="text-xs font-bold text-bakery-cocoa">Cliente Verificado</p>
+              <p class="text-[11px] text-bakery-mocha">Pedido Personalizado</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 4 -->
+        <div class="bg-bakery-cream rounded-3xl p-7 border border-bakery-beige shadow-soft flex flex-col justify-between hover:-translate-y-1 transition-transform duration-300">
+          <div>
+            <div class="flex items-center gap-1 text-bakery-gold mb-4 text-lg" aria-label="5 de 5 estrellas">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="font-serif italic text-lg text-bakery-cocoa leading-relaxed mb-6">
+              “Sin duda volveríamos a comprar.”
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-bakery-beige/80">
+            <div class="w-9 h-9 rounded-full bg-bakery-beige text-bakery-cocoa font-bold text-xs flex items-center justify-center">
+              MF
+            </div>
+            <div>
+              <p class="text-xs font-bold text-bakery-cocoa">Cliente Verificado</p>
+              <p class="text-[11px] text-bakery-mocha">Villanueva, Cortés</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- COTIZA TU PASTEL (CUSTOM QUOTE FORM TO WHATSAPP)                      -->
+  <!-- ===================================================================== -->
+  <section id="cotizar" class="py-16 sm:py-24 bg-bakery-beige/45 border-t border-bakery-beige relative overflow-hidden">
+    <!-- Subtle Complementary Visual Banner Accent -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="bg-white rounded-[2.25rem] shadow-premium border border-bakery-beige overflow-hidden grid grid-cols-1 lg:grid-cols-12">
+        
+        <!-- Left Decorative Atmospheric Column -->
+        <div class="lg:col-span-5 relative bg-bakery-cocoa text-bakery-cream p-8 sm:p-12 flex flex-col justify-between">
+          <img 
+            src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&w=1000&q=80" 
+            alt="Decoración artesanal de repostería" 
+            class="absolute inset-0 w-full h-full object-cover opacity-25"
+          />
+          <div class="relative z-10">
+            <span class="inline-block px-3.5 py-1 rounded-full bg-bakery-gold/20 border border-bakery-gold/50 text-bakery-gold text-xs font-bold uppercase tracking-widest mb-4">
+              Diseño a tu Medida
+            </span>
+            <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white leading-tight mb-4">
+              Cotiza el pastel ideal para tu celebración
+            </h2>
+            <p class="text-sm sm:text-base text-bakery-beige/90 leading-relaxed mb-8">
+              Completa los datos de tu evento y te atenderemos directamente por WhatsApp para asesorarte con el diseño, tamaño y disponibilidad.
+            </p>
+
+            <ul class="space-y-3 text-sm text-bakery-cream/95">
+              <li class="flex items-center gap-2.5">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-bakery-gold shrink-0"></i>
+                <span>Cumpleaños, Bodas, Quince años y Baby Shower</span>
+              </li>
+              <li class="flex items-center gap-2.5">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-bakery-gold shrink-0"></i>
+                <span>Graduaciones, Aniversarios y Eventos Corporativos</span>
+              </li>
+              <li class="flex items-center gap-2.5">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-bakery-gold shrink-0"></i>
+                <span>Respuesta rápida y personalizada</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="relative z-10 mt-10 pt-6 border-t border-white/15 flex items-center gap-3">
+            <img 
+              src="https://lh3.googleusercontent.com/d/1CCz9v4uoxJ3SoDoB027vy_YxRaAlCJla" 
+              alt="Logo J&J Bakery" 
+              class="w-12 h-12 rounded-full object-cover border border-bakery-gold bg-white"
+            />
+            <div>
+              <p class="font-serif font-bold text-white">J&amp;J Bakery</p>
+              <p class="text-xs text-bakery-gold">Villanueva, Cortés, Honduras</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Interactive Quote Form -->
+        <div class="lg:col-span-7 p-8 sm:p-12">
+          <form id="quote-form" onsubmit="submitQuoteForm(event)" class="space-y-5">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+              <!-- Nombre -->
+              <div>
+                <label for="quote-name" class="block text-xs font-bold uppercase tracking-wider text-bakery-cocoa mb-2">
+                  Nombre completo *
+                </label>
+                <input 
+                  type="text" 
+                  id="quote-name" 
+                  required 
+                  placeholder="Ej. María Fernanda López"
+                  class="w-full px-4 py-3 rounded-xl bg-bakery-cream border border-bakery-beige text-sm text-bakery-cocoa focus:outline-none focus:border-bakery-gold transition-colors"
+                />
+              </div>
+
+              <!-- Teléfono -->
+              <div>
+                <label for="quote-phone" class="block text-xs font-bold uppercase tracking-wider text-bakery-cocoa mb-2">
+                  Teléfono / WhatsApp *
+                </label>
+                <input 
+                  type="tel" 
+                  id="quote-phone" 
+                  required 
+                  placeholder="Ej. +504 9999-9999"
+                  class="w-full px-4 py-3 rounded-xl bg-bakery-cream border border-bakery-beige text-sm text-bakery-cocoa focus:outline-none focus:border-bakery-gold transition-colors"
+                />
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+              <!-- Tipo de evento -->
+              <div>
+                <label for="quote-event" class="block text-xs font-bold uppercase tracking-wider text-bakery-cocoa mb-2">
+                  Tipo de evento *
+                </label>
+                <select 
+                  id="quote-event" 
+                  required
+                  class="w-full px-4 py-3 rounded-xl bg-bakery-cream border border-bakery-beige text-sm text-bakery-cocoa focus:outline-none focus:border-bakery-gold transition-colors"
+                >
+                  <option value="Cumpleaños">Cumpleaños</option>
+                  <option value="Boda">Boda</option>
+                  <option value="Quince años">Quince años</option>
+                  <option value="Baby Shower">Baby Shower</option>
+                  <option value="Graduación">Graduación</option>
+                  <option value="Aniversario">Aniversario</option>
+                  <option value="Evento corporativo">Evento corporativo</option>
+                  <option value="Celebración familiar">Celebración familiar</option>
+                  <option value="Fecha especial">Fecha especial</option>
+                </select>
+              </div>
+
+              <!-- Fecha del evento -->
+              <div>
+                <label for="quote-date" class="block text-xs font-bold uppercase tracking-wider text-bakery-cocoa mb-2">
+                  Fecha del evento *
+                </label>
+                <input 
+                  type="date" 
+                  id="quote-date" 
+                  required
+                  class="w-full px-4 py-3 rounded-xl bg-bakery-cream border border-bakery-beige text-sm text-bakery-cocoa focus:outline-none focus:border-bakery-gold transition-colors"
+                />
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+              <!-- Cantidad de personas -->
+              <div>
+                <label for="quote-guests" class="block text-xs font-bold uppercase tracking-wider text-bakery-cocoa mb-2">
+                  Cantidad de personas *
+                </label>
+                <input 
+                  type="number" 
+                  id="quote-guests" 
+                  min="5" 
+                  max="500" 
+                  required 
+                  placeholder="Ej. 30 personas"
+                  class="w-full px-4 py-3 rounded-xl bg-bakery-cream border border-bakery-beige text-sm text-bakery-cocoa focus:outline-none focus:border-bakery-gold transition-colors"
+                />
+              </div>
+
+              <!-- Temática -->
+              <div>
+                <label for="quote-theme" class="block text-xs font-bold uppercase tracking-wider text-bakery-cocoa mb-2">
+                  Temática o inspiración *
+                </label>
+                <input 
+                  type="text" 
+                  id="quote-theme" 
+                  required 
+                  placeholder="Ej. Floral dorado, Vaquero, Anime..."
+                  class="w-full px-4 py-3 rounded-xl bg-bakery-cream border border-bakery-beige text-sm text-bakery-cocoa focus:outline-none focus:border-bakery-gold transition-colors"
+                />
+              </div>
+            </div>
+
+            <!-- Comentarios adicionales -->
+            <div>
+              <label for="quote-notes" class="block text-xs font-bold uppercase tracking-wider text-bakery-cocoa mb-2">
+                Comentarios adicionales
+              </label>
+              <textarea 
+                id="quote-notes" 
+                rows="3" 
+                placeholder="Cuéntanos colores preferidos, dedicatoria o cualquier detalle especial..."
+                class="w-full px-4 py-3 rounded-xl bg-bakery-cream border border-bakery-beige text-sm text-bakery-cocoa focus:outline-none focus:border-bakery-gold transition-colors resize-none"
+              ></textarea>
+            </div>
+
+            <button 
+              type="submit" 
+              class="w-full py-4 px-6 rounded-full bg-bakery-whatsapp hover:bg-bakery-whatsappDark text-white font-bold text-sm sm:text-base transition-all duration-300 shadow-soft flex items-center justify-center gap-2.5 cursor-pointer"
+            >
+              <i data-lucide="message-circle" class="w-5 h-5"></i>
+              <span>Solicitar Cotización por WhatsApp</span>
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- CONTACTO & UBICACIÓN                                                  -->
+  <!-- ===================================================================== -->
+  <section id="contacto" class="py-16 sm:py-24 bg-white border-t border-bakery-beige">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        
+        <!-- Contact Details -->
+        <div class="lg:col-span-5 space-y-6">
+          <div>
+            <span class="inline-block px-3.5 py-1 rounded-full bg-bakery-blush/50 text-bakery-cocoa text-xs font-bold uppercase tracking-widest mb-3">
+              Estamos Cerca de Ti
+            </span>
+            <h2 class="font-serif text-3xl sm:text-4xl font-bold text-bakery-cocoa mb-3">
+              Contáctanos
+            </h2>
+            <p class="text-sm sm:text-base text-bakery-mocha">
+              Será un placer atenderte y ayudarte a elegir o diseñar el pastel perfecto para tu próxima celebración.
+            </p>
+          </div>
+
+          <div class="space-y-4">
+            <!-- Location -->
+            <div class="flex items-start gap-4 p-4 rounded-2xl bg-bakery-cream border border-bakery-beige">
+              <div class="w-11 h-11 rounded-xl bg-white flex items-center justify-center text-bakery-goldDark shrink-0 shadow-xs">
+                <i data-lucide="map-pin" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <p class="text-xs font-bold uppercase tracking-wider text-bakery-mocha">Ubicación</p>
+                <p class="font-semibold text-bakery-cocoa text-base mt-0.5">📍 Villanueva, Cortés, Honduras</p>
+              </div>
+            </div>
+
+            <!-- WhatsApp -->
+            <div class="flex items-start gap-4 p-4 rounded-2xl bg-bakery-cream border border-bakery-beige">
+              <div class="w-11 h-11 rounded-xl bg-white flex items-center justify-center text-bakery-whatsappDark shrink-0 shadow-xs">
+                <i data-lucide="phone" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <p class="text-xs font-bold uppercase tracking-wider text-bakery-mocha">WhatsApp Pedidos &amp; Cotizaciones</p>
+                <a href="https://wa.me/50433976900" target="_blank" rel="noopener noreferrer" class="font-semibold text-bakery-cocoa hover:text-bakery-whatsappDark text-base mt-0.5 block transition-colors">
+                  📱 +504 3397-6900
+                </a>
+              </div>
+            </div>
+
+            <!-- Facebook -->
+            <div class="flex items-start gap-4 p-4 rounded-2xl bg-bakery-cream border border-bakery-beige">
+              <div class="w-11 h-11 rounded-xl bg-white flex items-center justify-center text-blue-600 shrink-0 shadow-xs">
+                <i data-lucide="facebook" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <p class="text-xs font-bold uppercase tracking-wider text-bakery-mocha">Facebook Oficial</p>
+                <a href="https://www.facebook.com/search/top?q=Reposter%C3%ADa%20J%26J" target="_blank" rel="noopener noreferrer" class="font-semibold text-bakery-cocoa hover:text-blue-600 text-base mt-0.5 block transition-colors">
+                  📘 Repostería J&amp;J
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Action Buttons -->
+          <div class="flex flex-wrap gap-3 pt-2">
+            <a 
+              href="https://wa.me/50433976900?text=Hola%20%F0%9F%98%8A%2C%20me%20gustar%C3%ADa%20comunicarme%20con%20J%26J%20Bakery." 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-bakery-whatsapp hover:bg-bakery-whatsappDark text-white text-xs sm:text-sm font-semibold transition-colors shadow-soft"
+            >
+              <i data-lucide="message-circle" class="w-4 h-4"></i>
+              <span>WhatsApp</span>
+            </a>
+
+            <a 
+              href="https://www.facebook.com/search/top?q=Reposter%C3%ADa%20J%26J" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-blue-600 hover:bg-blue-700 text-white text-xs sm:text-sm font-semibold transition-colors shadow-soft"
+            >
+              <i data-lucide="facebook" class="w-4 h-4"></i>
+              <span>Facebook</span>
+            </a>
+
+            <a 
+              href="#catalogo" 
+              class="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-bakery-cocoa hover:bg-bakery-mocha text-white text-xs sm:text-sm font-semibold transition-colors shadow-soft"
+            >
+              <i data-lucide="cake" class="w-4 h-4 text-bakery-gold"></i>
+              <span>Catálogo</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Embedded Map Centered on Villanueva, Cortés, Honduras -->
+        <div class="lg:col-span-7">
+          <div class="rounded-[2rem] overflow-hidden border-2 border-bakery-beige shadow-premium bg-bakery-cream h-[360px] sm:h-[420px] relative">
+            <iframe 
+              title="Mapa de ubicación J&J Bakery en Villanueva, Cortés, Honduras"
+              src="https://www.google.com/maps?q=Villanueva,+Cort%C3%A9s,+Honduras&output=embed" 
+              class="w-full h-full border-0"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <div class="absolute bottom-4 left-4 right-4 sm:right-auto bg-white/95 backdrop-blur-md px-4 py-3 rounded-2xl shadow-md border border-bakery-beige flex items-center gap-3">
+              <div class="w-9 h-9 rounded-full bg-bakery-gold/20 text-bakery-goldDark flex items-center justify-center shrink-0">
+                <i data-lucide="navigation" class="w-4 h-4"></i>
+              </div>
+              <div>
+                <p class="text-xs font-bold text-bakery-cocoa">J&amp;J Bakery • Repostería J&amp;J</p>
+                <p class="text-[11px] text-bakery-mocha">Villanueva, Cortés, Honduras</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- PREMIUM FOOTER                                                        -->
+  <!-- ===================================================================== -->
+  <footer class="bg-bakery-cocoa text-bakery-cream pt-16 pb-10 border-t border-bakery-gold/30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-white/10">
+        
+        <!-- Brand Column -->
+        <div class="md:col-span-5 space-y-4">
+          <div class="flex items-center gap-3">
+            <img 
+              src="https://lh3.googleusercontent.com/d/1CCz9v4uoxJ3SoDoB027vy_YxRaAlCJla" 
+              alt="Logo J&J Bakery" 
+              class="w-12 h-12 rounded-full object-cover border border-bakery-gold bg-white"
+            />
+            <div>
+              <span class="font-serif text-2xl font-bold text-white block leading-none">J&amp;J Bakery</span>
+              <span class="text-[11px] uppercase tracking-[0.2em] text-bakery-gold block mt-1">Repostería J&amp;J</span>
+            </div>
+          </div>
+          <p class="font-serif italic text-lg text-bakery-blush">
+            “Creamos el sabor de tus mejores recuerdos”
+          </p>
+          <p class="text-xs sm:text-sm text-bakery-beige/80 leading-relaxed max-w-sm">
+            Pasteles artesanales personalizados para cumpleaños, bodas, quinceaños, graduaciones y eventos especiales en Villanueva, Cortés, Honduras.
+          </p>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="md:col-span-3 space-y-3">
+          <h3 class="text-xs font-bold uppercase tracking-widest text-bakery-gold">Navegación</h3>
+          <ul class="space-y-2 text-sm text-bakery-beige/85">
+            <li><a href="#inicio" class="hover:text-bakery-gold transition-colors">Inicio</a></li>
+            <li><a href="#nosotros" class="hover:text-bakery-gold transition-colors">Quiénes Somos</a></li>
+            <li><a href="#proceso" class="hover:text-bakery-gold transition-colors">Nuestro Proceso</a></li>
+            <li><a href="#catalogo" class="hover:text-bakery-gold transition-colors">Catálogo de Pasteles</a></li>
+            <li><a href="#galeria" class="hover:text-bakery-gold transition-colors">Galería de Trabajos</a></li>
+            <li><a href="#cotizar" class="hover:text-bakery-gold transition-colors">Cotiza tu Pastel</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact & Social -->
+        <div class="md:col-span-4 space-y-3">
+          <h3 class="text-xs font-bold uppercase tracking-widest text-bakery-gold">Atención al Cliente</h3>
+          <ul class="space-y-2.5 text-sm text-bakery-beige/85">
+            <li class="flex items-center gap-2">
+              <i data-lucide="map-pin" class="w-4 h-4 text-bakery-gold shrink-0"></i>
+              <span>Villanueva, Cortés, Honduras</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="phone" class="w-4 h-4 text-bakery-gold shrink-0"></i>
+              <a href="https://wa.me/50433976900" target="_blank" rel="noopener noreferrer" class="hover:text-bakery-gold transition-colors">+504 3397-6900</a>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="facebook" class="w-4 h-4 text-bakery-gold shrink-0"></i>
+              <a href="https://www.facebook.com/search/top?q=Reposter%C3%ADa%20J%26J" target="_blank" rel="noopener noreferrer" class="hover:text-bakery-gold transition-colors">Repostería J&amp;J</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-bakery-beige/60">
+        <p>© <span id="current-year"></span> J&amp;J Bakery (Repostería J&amp;J). Todos los derechos reservados.</p>
+        <p>Hecho con dedicación artesanal en Villanueva, Cortés, Honduras.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================================================================== -->
+  <!-- MODAL PREMIUM DE PRODUCTO                                             -->
+  <!-- ===================================================================== -->
+  <div 
+    id="product-modal" 
+    class="fixed inset-0 z-50 hidden items-center justify-center p-4 sm:p-6 bg-bakery-cocoa/70 backdrop-blur-sm"
+    onclick="if(event.target === this) closeProductModal()"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="modal-product-title"
+  >
+    <div class="bg-white rounded-[2rem] max-w-4xl w-full overflow-hidden shadow-2xl border border-bakery-beige animate-modal relative max-h-[92vh] flex flex-col md:flex-row">
+      
+      <!-- Close Button -->
+      <button 
+        onclick="closeProductModal()" 
+        aria-label="Cerrar detalles del producto"
+        class="absolute top-4 right-4 z-20 w-10 h-10 rounded-full bg-white/90 hover:bg-bakery-blush text-bakery-cocoa flex items-center justify-center shadow-md transition-colors cursor-pointer"
+      >
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <!-- Left Image Area with Hover Zoom -->
+      <div class="md:w-1/2 bg-bakery-cream relative overflow-hidden group min-h-[280px] sm:min-h-[360px]">
+        <img 
+          id="modal-product-img" 
+          src="" 
+          alt="" 
+          class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 cursor-zoom-in"
+        />
+        <div class="absolute bottom-3 left-3 px-3 py-1 rounded-full bg-black/50 backdrop-blur-xs text-white text-[11px] flex items-center gap-1.5 pointer-events-none">
+          <i data-lucide="zoom-in" class="w-3.5 h-3.5"></i>
+          <span>Pasa el cursor para acercar</span>
+        </div>
+      </div>
+
+      <!-- Right Product Details Area -->
+      <div class="md:w-1/2 p-6 sm:p-8 flex flex-col justify-between overflow-y-auto">
+        <div>
+          <!-- Badges -->
+          <div class="flex flex-wrap items-center gap-2 mb-3">
+            <span id="modal-product-category" class="px-3 py-1 rounded-full bg-bakery-beige text-bakery-cocoa text-xs font-bold uppercase tracking-wider">
+              Categoría
+            </span>
+            <span id="modal-product-status" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs font-semibold">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+              Disponible
+            </span>
+          </div>
+
+          <!-- Title & Price -->
+          <h3 id="modal-product-title" class="font-serif text-2xl sm:text-3xl font-bold text-bakery-cocoa mb-2">
+            Nombre del Pastel
+          </h3>
+          <p id="modal-product-price" class="text-2xl sm:text-3xl font-bold text-bakery-goldDark mb-4">
+            L. 1,000
+          </p>
+
+          <!-- Faithful Description without inventing technical attributes -->
+          <p id="modal-product-desc" class="text-sm text-bakery-mocha leading-relaxed mb-5">
+            Diseño artesanal elaborado por J&amp;J Bakery en Villanueva, Cortés. Ideal para celebrar momentos especiales con acabados personalizados.
+          </p>
+
+          <!-- Transparent Specification Box (Shows N/D for non-provided data) -->
+          <div class="bg-bakery-cream rounded-2xl p-4 border border-bakery-beige space-y-2 text-xs mb-6">
+            <div class="flex justify-between">
+              <span class="text-bakery-mocha">Categoría:</span>
+              <span id="modal-spec-category" class="font-semibold text-bakery-cocoa">N/D</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-bakery-mocha">Estado:</span>
+              <span id="modal-spec-status" class="font-semibold text-emerald-700">Disponible</span>
+            </div>
+            <div class="flex justify-between gap-4">
+              <span class="text-bakery-mocha shrink-0">Sabor / Porciones:</span>
+              <span class="font-semibold text-bakery-cocoa text-right">N/D (Personalizable al cotizar)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quantity Selector & Action Buttons -->
+        <div class="space-y-3 pt-2 border-t border-bakery-beige">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold uppercase tracking-wider text-bakery-cocoa">Cantidad:</span>
+            <div class="inline-flex items-center rounded-full border border-bakery-beige bg-bakery-cream p-1">
+              <button type="button" onclick="changeModalQty(-1)" class="w-8 h-8 rounded-full bg-white text-bakery-cocoa font-bold hover:bg-bakery-blush/50 transition-colors cursor-pointer">-</button>
+              <span id="modal-qty-value" class="w-10 text-center text-sm font-bold text-bakery-cocoa">1</span>
+              <button type="button" onclick="changeModalQty(1)" class="w-8 h-8 rounded-full bg-white text-bakery-cocoa font-bold hover:bg-bakery-blush/50 transition-colors cursor-pointer">+</button>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <button 
+              id="modal-add-cart-btn"
+              type="button"
+              class="w-full py-3.5 px-4 rounded-full bg-bakery-cocoa hover:bg-bakery-mocha text-white text-xs sm:text-sm font-semibold transition-colors flex items-center justify-center gap-2 cursor-pointer"
+            >
+              <i data-lucide="shopping-bag" class="w-4 h-4 text-bakery-gold"></i>
+              <span>Agregar al Carrito</span>
+            </button>
+
+            <a 
+              id="modal-whatsapp-btn"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="w-full py-3.5 px-4 rounded-full bg-bakery-whatsapp hover:bg-bakery-whatsappDark text-white text-xs sm:text-sm font-semibold transition-colors flex items-center justify-center gap-2"
+            >
+              <i data-lucide="message-circle" class="w-4 h-4"></i>
+              <span>Pedir por WhatsApp</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- LIGHTBOX MODAL FOR GALLERY                                            -->
+  <!-- ===================================================================== -->
+  <div 
+    id="gallery-lightbox" 
+    class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-bakery-cocoa/90 backdrop-blur-md"
+    onclick="if(event.target === this) closeLightbox()"
+  >
+    <button 
+      onclick="closeLightbox()" 
+      aria-label="Cerrar galería"
+      class="absolute top-5 right-5 w-11 h-11 rounded-full bg-white/15 hover:bg-white/30 text-white flex items-center justify-center transition-colors cursor-pointer"
+    >
+      <i data-lucide="x" class="w-6 h-6"></i>
+    </button>
+
+    <button 
+      onclick="navigateLightbox(-1)" 
+      aria-label="Imagen anterior"
+      class="absolute left-3 sm:left-6 w-11 h-11 rounded-full bg-white/15 hover:bg-white/30 text-white flex items-center justify-center transition-colors cursor-pointer"
+    >
+      <i data-lucide="chevron-left" class="w-6 h-6"></i>
+    </button>
+
+    <div class="max-w-4xl w-full flex flex-col items-center animate-modal">
+      <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-white/20 bg-black max-h-[75vh]">
+        <img 
+          id="lightbox-img" 
+          src="" 
+          alt="" 
+          onclick="this.classList.toggle('scale-125')"
+          class="max-h-[75vh] w-auto object-contain transition-transform duration-500 cursor-zoom-in"
+        />
+      </div>
+      <div class="mt-4 text-center text-white">
+        <span id="lightbox-category" class="text-xs uppercase tracking-widest text-bakery-gold font-bold block"></span>
+        <h4 id="lightbox-title" class="font-serif text-xl sm:text-2xl font-bold mt-0.5"></h4>
+        <div class="mt-3 flex items-center justify-center gap-3">
+          <a id="lightbox-wa-link" href="#" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-bakery-whatsapp hover:bg-bakery-whatsappDark text-white text-xs font-semibold transition-colors">
+            <i data-lucide="message-circle" class="w-4 h-4"></i>
+            <span>Cotizar diseño similar</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <button 
+      onclick="navigateLightbox(1)" 
+      aria-label="Siguiente imagen"
+      class="absolute right-3 sm:right-6 w-11 h-11 rounded-full bg-white/15 hover:bg-white/30 text-white flex items-center justify-center transition-colors cursor-pointer"
+    >
+      <i data-lucide="chevron-right" class="w-6 h-6"></i>
+    </button>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- SHOPPING CART DRAWER (SLIDE-OVER PANEL)                               -->
+  <!-- ===================================================================== -->
+  <div 
+    id="cart-drawer-backdrop" 
+    class="fixed inset-0 z-50 hidden bg-bakery-cocoa/60 backdrop-blur-xs transition-opacity"
+    onclick="toggleCart(false)"
+  ></div>
+
+  <aside 
+    id="cart-drawer" 
+    aria-label="Carrito de compras"
+    class="fixed top-0 right-0 z-50 h-full w-full max-w-md bg-white shadow-2xl border-l border-bakery-beige transform translate-x-full transition-transform duration-300 ease-out flex flex-col"
+  >
+    <!-- Drawer Header -->
+    <div class="p-6 bg-bakery-cream border-b border-bakery-beige flex items-center justify-between">
+      <div class="flex items-center gap-2.5">
+        <div class="w-9 h-9 rounded-full bg-bakery-cocoa text-bakery-gold flex items-center justify-center">
+          <i data-lucide="shopping-bag" class="w-4 h-4"></i>
+        </div>
+        <div>
+          <h2 class="font-serif text-xl font-bold text-bakery-cocoa">Tu Pedido</h2>
+          <p class="text-xs text-bakery-mocha">J&amp;J Bakery • Cotización rápida</p>
+        </div>
+      </div>
+      <button 
+        onclick="toggleCart(false)" 
+        aria-label="Cerrar carrito"
+        class="p-2 rounded-full hover:bg-bakery-beige text-bakery-cocoa transition-colors cursor-pointer"
+      >
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+    </div>
+
+    <!-- Drawer Items List -->
+    <div id="cart-items-container" class="flex-1 overflow-y-auto p-6 space-y-4">
+      <!-- Rendered dynamically via JS -->
+    </div>
+
+    <!-- Drawer Footer (Totals & WhatsApp Checkout) -->
+    <div id="cart-footer" class="p-6 bg-bakery-cream border-t border-bakery-beige space-y-4">
+      <div class="space-y-1.5 text-sm">
+        <div class="flex justify-between text-bakery-mocha">
+          <span>Subtotal referencial:</span>
+          <span id="cart-subtotal" class="font-semibold text-bakery-cocoa">L. 0</span>
+        </div>
+        <div class="flex justify-between text-base font-bold text-bakery-cocoa pt-2 border-t border-bakery-beige">
+          <span>Total referencial:</span>
+          <span id="cart-total" class="text-lg text-bakery-goldDark">L. 0</span>
+        </div>
+      </div>
+
+      <button 
+        id="checkout-whatsapp-btn"
+        onclick="checkoutViaWhatsApp()"
+        class="w-full py-4 px-5 rounded-full bg-bakery-whatsapp hover:bg-bakery-whatsappDark text-white font-bold text-sm shadow-soft transition-all flex items-center justify-center gap-2.5 cursor-pointer"
+      >
+        <i data-lucide="message-circle" class="w-5 h-5"></i>
+        <span>Finalizar Pedido</span>
+      </button>
+
+      <div class="flex items-center justify-between pt-1">
+        <button 
+          onclick="clearCart()" 
+          class="text-xs text-bakery-mocha hover:text-red-600 underline transition-colors cursor-pointer"
+        >
+          Vaciar carrito
+        </button>
+        <span class="text-[11px] text-bakery-mocha">Se abrirá WhatsApp automáticamente</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ===================================================================== -->
+  <!-- FLOATING WHATSAPP BUTTON + INTELLIGENT AI CHATBOT WIDGET              -->
+  <!-- ===================================================================== -->
+  
+  <!-- Floating Action Buttons Container (Bottom Right) -->
+  <div class="fixed bottom-5 right-5 z-40 flex flex-col items-end gap-3">
+    
+    <!-- Chatbot Window (Hidden by default) -->
+    <div 
+      id="chatbot-window" 
+      class="hidden w-[calc(100vw-2.5rem)] sm:w-[370px] bg-white rounded-3xl shadow-2xl border border-bakery-beige overflow-hidden animate-modal mb-1"
+    >
+      <!-- WhatsApp Business Style Header -->
+      <div class="bg-[#075E54] text-white p-4 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="relative">
+            <img 
+              src="https://lh3.googleusercontent.com/d/1CCz9v4uoxJ3SoDoB027vy_YxRaAlCJla" 
+              alt="Asistente Virtual J&J Bakery" 
+              class="w-11 h-11 rounded-full object-cover border-2 border-white/80 bg-white"
+            />
+            <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-bakery-whatsapp border-2 border-[#075E54]"></span>
+          </div>
+          <div>
+            <div class="flex items-center gap-1.5">
+              <h3 class="font-bold text-sm leading-tight">Asistente J&amp;J Bakery</h3>
+              <span class="px-1.5 py-0.5 rounded bg-white/15 text-[10px] font-semibold">IA</span>
+            </div>
+            <p class="text-[11px] text-emerald-100">En línea • Respuesta inmediata</p>
+          </div>
+        </div>
+        <button 
+          onclick="toggleChatbot(false)" 
+          aria-label="Cerrar asistente virtual"
+          class="p-1.5 rounded-full hover:bg-white/15 transition-colors cursor-pointer"
+        >
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <!-- Chat Messages Body (WhatsApp Soft Wallpaper Tone) -->
+      <div id="chatbot-messages" class="h-72 overflow-y-auto p-4 space-y-3 bg-[#EFEAE2] text-xs sm:text-sm">
+        <!-- Welcome Message -->
+        <div class="bg-white rounded-2xl rounded-tl-none p-3.5 shadow-xs max-w-[88%] text-bakery-cocoa">
+          <p class="leading-relaxed">
+            ¡Hola! 😊 Soy el asistente virtual de <strong>J&amp;J Bakery</strong> en Villanueva, Cortés. ¿En qué puedo ayudarte hoy con tu pastel ideal?
+          </p>
+          <span class="block text-[10px] text-gray-400 text-right mt-1">Ahora</span>
+        </div>
+      </div>
+
+      <!-- Quick FAQ Chips -->
+      <div class="bg-bakery-cream px-3 py-2.5 border-t border-bakery-beige">
+        <p class="text-[10px] font-bold uppercase tracking-wider text-bakery-mocha mb-1.5 px-1">Preguntas frecuentes:</p>
+        <div class="flex gap-1.5 overflow-x-auto pb-1 no-scrollbar" id="chatbot-faq-chips">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+
+      <!-- Input Bar -->
+      <form onsubmit="handleChatSubmit(event)" class="p-2.5 bg-white border-t border-bakery-beige flex items-center gap-2">
+        <input 
+          type="text" 
+          id="chatbot-input" 
+          placeholder="Escribe tu pregunta aquí..." 
+          class="flex-1 px-3.5 py-2 rounded-full bg-bakery-cream border border-bakery-beige text-xs sm:text-sm text-bakery-cocoa focus:outline-none focus:border-bakery-gold"
+        />
+        <button 
+          type="submit" 
+          aria-label="Enviar mensaje"
+          class="w-9 h-9 rounded-full bg-[#075E54] hover:bg-[#054c44] text-white flex items-center justify-center shrink-0 transition-colors cursor-pointer"
+        >
+          <i data-lucide="send" class="w-4 h-4"></i>
+        </button>
+      </form>
+    </div>
+
+    <!-- Floating Buttons Row -->
+    <div class="flex items-center gap-3">
+      <!-- Chatbot Toggle Button -->
+      <button 
+        onclick="toggleChatbot()" 
+        aria-label="Abrir asistente virtual"
+        class="group flex items-center gap-2.5 px-4 py-3 rounded-full bg-bakery-cocoa text-white shadow-premium border border-bakery-gold/50 hover:bg-bakery-mocha transition-all duration-300 cursor-pointer"
+      >
+        <div class="relative">
+          <i data-lucide="bot" class="w-5 h-5 text-bakery-gold"></i>
+          <span class="absolute -top-1 -right-1 w-2.5 h-2.5 rounded-full bg-bakery-whatsapp animate-ping"></span>
+        </div>
+        <span class="text-xs font-semibold hidden sm:inline">Asistente IA</span>
+      </button>
+
+      <!-- Permanent Direct WhatsApp Floating Button -->
+      <a 
+        href="https://wa.me/50433976900?text=Hola%20%F0%9F%98%8A%2C%20me%20interesa%20cotizar%20un%20pastel%20en%20J%26J%20Bakery." 
+        target="_blank" 
+        rel="noopener noreferrer"
+        aria-label="Contactar por WhatsApp"
+        class="w-14 h-14 rounded-full bg-bakery-whatsapp hover:bg-bakery-whatsappDark text-white shadow-premium flex items-center justify-center hover:scale-105 transition-all duration-300"
+      >
+        <i data-lucide="message-circle" class="w-7 h-7"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- TOAST NOTIFICATION CONTAINER                                          -->
+  <!-- ===================================================================== -->
+  <div id="toast-container" class="fixed bottom-24 left-1/2 -translate-x-1/2 z-50 pointer-events-none flex flex-col items-center gap-2"></div>
+
+  <!-- ===================================================================== -->
+  <!-- JAVASCRIPT APPLICATION LOGIC                                          -->
+  <!-- ===================================================================== -->
+  <script>
+    /**
+     * 1. EXACT PRODUCT CATALOG DATA (J&J BAKERY)
+     * Strictly using only the 5 real products, real images, exact names, exact prices, and categories.
+     */
+    const PRODUCTS = [
+      {
+        id: 1,
+        name: "Pastel Vaquero",
+        price: 1000,
+        category: "Cumpleaños",
+        status: "Disponible",
+        image: "https://lh3.googleusercontent.com/d/1WSUlB74IromvgUrxg4U0JcTj-R388Mpl",
+        description: "Pastel artesanal con temática vaquera elaborado por J&J Bakery en Villanueva, Cortés. Ideal para celebrar cumpleaños con un diseño lleno de carácter y detalle."
+      },
+      {
+        id: 2,
+        name: "Pastel Vegeta",
+        price: 1500,
+        category: "Temático",
+        status: "Disponible",
+        image: "https://lh3.googleusercontent.com/d/1MPJPwozyd7P6CO73HLFFraqYOu_-1Htk",
+        description: "Pastel temático inspirado en Vegeta, elaborado artesanalmente con acabados personalizados para fanáticos y celebraciones especiales."
+      },
+      {
+        id: 3,
+        name: "Pastel Quinceaños",
+        price: 2500,
+        category: "Quinceaños",
+        status: "Disponible",
+        image: "https://lh3.googleusercontent.com/d/1gPm8dUDGtrHZkGjp6aJGTg6SfrlRhpm-",
+        description: "Diseño artesanal especial para Quince años, creado con delicadeza y elegancia para ser el centro de atención en una noche inolvidable."
+      },
+      {
+        id: 4,
+        name: "Pastel Elegante",
+        price: 3500,
+        category: "Premium",
+        status: "Disponible",
+        image: "https://lh3.googleusercontent.com/d/1j6PdWVox7YTbEiX5xBp-kHicVCHXxHmZ",
+        description: "Creación artesanal de línea Premium con estética sofisticada, ideal para bodas, aniversarios, eventos corporativos y celebraciones de gala."
+      },
+      {
+        id: 5,
+        name: "Pastel Premium",
+        price: 2000,
+        category: "Especial",
+        status: "Disponible",
+        image: "https://lh3.googleusercontent.com/d/1S4jR--Y8TFl80MsjBpXRLcqPNZyUQ0Df",
+        description: "Pastel artesanal de edición especial con acabados finos y presentación distinguida para conmemorar fechas únicas."
+      }
+    ];
+
+    const WHATSAPP_NUMBER = "50433976900";
+    const STORAGE_KEY = "jj_bakery_cart_v1";
+
+    // Application State
+    let cart = [];
+    let currentModalProduct = null;
+    let currentModalQty = 1;
+    let currentLightboxIndex = 0;
+
+    /**
+     * Format currency in Honduran Lempiras with thousands separator (e.g., "L. 1,000")
+     */
+    function formatLempiras(amount) {
+      if (typeof amount !== "number" || isNaN(amount)) return "N/D";
+      return "L. " + amount.toLocaleString("en-US");
+    }
+
+    /**
+     * Load cart from localStorage safely
+     */
+    function loadCart() {
+      try {
+        const saved = localStorage.getItem(STORAGE_KEY);
+        if (saved) {
+          const parsed = JSON.parse(saved);
+          if (Array.isArray(parsed)) {
+            // Validate items against real catalog
+            cart = parsed.filter(item => PRODUCTS.some(p => p.id === item.id));
+          }
+        }
+      } catch (err) {
+        console.error("Error loading cart:", err);
+        cart = [];
+      }
+      updateCartUI();
+    }
+
+    /**
+     * Save cart to localStorage
+     */
+    function saveCart() {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(cart));
+      } catch (err) {
+        console.error("Error saving cart:", err);
+      }
+      updateCartUI();
+    }
+
+    /**
+     * Show elegant non-blocking toast notification
+     */
+    function showToast(message) {
+      const container = document.getElementById("toast-container");
+      const toast = document.createElement("div");
+      toast.className = "px-5 py-3 rounded-full bg-bakery-cocoa text-white text-xs sm:text-sm font-medium shadow-premium border border-bakery-gold/40 flex items-center gap-2 animate-modal";
+      toast.innerHTML = `<span class="w-2 h-2 rounded-full bg-bakery-gold"></span><span>${message}</span>`;
+      container.appendChild(toast);
+
+      setTimeout(() => {
+        toast.style.opacity = "0";
+        toast.style.transform = "translateY(8px)";
+        toast.style.transition = "all 0.3s ease";
+        setTimeout(() => toast.remove(), 300);
+      }, 2600);
+    }
+
+    /**
+     * Render Hero Featured Strip (3 Featured Real Cakes)
+     */
+    function renderHeroFeatured() {
+      const container = document.getElementById("hero-featured-strip");
+      if (!container) return;
+
+      const featuredIds = [1, 3, 5]; // Pastel Vaquero, Pastel Quinceaños, Pastel Premium
+      const featuredItems = PRODUCTS.filter(p => featuredIds.includes(p.id));
+
+      container.innerHTML = featuredItems.map(product => `
+        <div onclick="openProductModal(${product.id})" class="group bg-white/95 rounded-2xl p-3.5 border border-bakery-beige shadow-soft hover:shadow-premium hover:border-bakery-gold/50 transition-all duration-300 flex items-center gap-4 cursor-pointer">
+          <div class="w-20 h-20 rounded-xl overflow-hidden bg-bakery-cream shrink-0">
+            <img src="${product.image}" alt="${product.name}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+          </div>
+          <div class="flex-1 min-w-0">
+            <span class="text-[10px] font-bold uppercase tracking-wider text-bakery-goldDark block">${product.category}</span>
+            <h3 class="font-serif font-bold text-base text-bakery-cocoa truncate group-hover:text-bakery-goldDark transition-colors">${product.name}</h3>
+            <p class="text-sm font-bold text-bakery-mocha mt-0.5">${formatLempiras(product.price)}</p>
+          </div>
+          <div class="w-8 h-8 rounded-full bg-bakery-cream group-hover:bg-bakery-cocoa group-hover:text-white flex items-center justify-center text-bakery-cocoa transition-colors shrink-0">
+            <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+          </div>
+        </div>
+      `).join("");
+    }
+
+    /**
+     * Filter, Sort & Render Catalog Grid
+     */
+    function filterAndRenderCatalog() {
+      const searchVal = (document.getElementById("catalog-search")?.value || "").toLowerCase().trim();
+      const categoryVal = document.getElementById("catalog-category")?.value || "Todas";
+      const sortVal = document.getElementById("catalog-sort")?.value || "default";
+
+      // Sync category chips visual state
+      document.querySelectorAll(".cat-chip").forEach(chip => {
+        if (chip.dataset.cat === categoryVal) {
+          chip.className = "cat-chip active px-4 py-1.5 rounded-full text-xs font-semibold bg-bakery-cocoa text-white transition-all cursor-pointer";
+        } else {
+          chip.className = "cat-chip px-4 py-1.5 rounded-full text-xs font-semibold bg-white text-bakery-mocha border border-bakery-beige hover:border-bakery-gold transition-all cursor-pointer";
+        }
+      });
+
+      let filtered = PRODUCTS.filter(product => {
+        const matchesSearch = product.name.toLowerCase().includes(searchVal) || product.category.toLowerCase().includes(searchVal);
+        const matchesCat = categoryVal === "Todas" || product.category === categoryVal;
+        return matchesSearch && matchesCat;
+      });
+
+      if (sortVal === "price-asc") {
+        filtered.sort((a, b) => a.price - b.price);
+      } else if (sortVal === "price-desc") {
+        filtered.sort((a, b) => b.price - a.price);
+      } else if (sortVal === "name-asc") {
+        filtered.sort((a, b) => a.name.localeCompare(b.name, "es"));
+      }
+
+      const grid = document.getElementById("catalog-grid");
+      const emptyState = document.getElementById("catalog-empty");
+
+      if (filtered.length === 0) {
+        grid.innerHTML = "";
+        emptyState.classList.remove("hidden");
+        lucide.createIcons();
+        return;
+      }
+
+      emptyState.classList.add("hidden");
+
+      grid.innerHTML = filtered.map(product => {
+        const directWaMessage = encodeURIComponent(
+          `Hola 😊\n\nVi el *${product.name}* (${formatLempiras(product.price)}) en la página web de J&J Bakery y me gustaría solicitar más información y disponibilidad.`
+        );
+        const directWaUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${directWaMessage}`;
+
+        return `
+          <article class="group bg-bakery-cream/60 rounded-[2rem] border border-bakery-beige overflow-hidden shadow-soft hover:shadow-premium hover:-translate-y-1.5 transition-all duration-300 flex flex-col">
+            <!-- Product Image Wrapper -->
+            <div class="relative aspect-[4/4.2] overflow-hidden bg-white cursor-pointer" onclick="openProductModal(${product.id})">
+              <img 
+                src="${product.image}" 
+                alt="${product.name} - J&J Bakery" 
+                loading="lazy"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+              />
+              <!-- Top Badges -->
+              <div class="absolute top-4 left-4 right-4 flex items-center justify-between gap-2">
+                <span class="px-3.5 py-1 rounded-full bg-white/95 backdrop-blur-xs text-bakery-cocoa text-xs font-bold shadow-xs">
+                  ${product.category || "N/D"}
+                </span>
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50/95 backdrop-blur-xs text-emerald-700 border border-emerald-200 text-xs font-semibold shadow-xs">
+                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                  ${product.status || "N/D"}
+                </span>
+              </div>
+
+              <!-- Quick View Overlay Pill -->
+              <div class="absolute inset-x-0 bottom-4 flex justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <span class="px-4 py-2 rounded-full bg-bakery-cocoa/90 text-white text-xs font-semibold backdrop-blur-xs flex items-center gap-1.5 shadow-md">
+                  <i data-lucide="eye" class="w-3.5 h-3.5 text-bakery-gold"></i>
+                  <span>Vista rápida</span>
+                </span>
+              </div>
+            </div>
+
+            <!-- Card Content -->
+            <div class="p-6 flex-1 flex flex-col justify-between bg-white">
+              <div>
+                <div class="flex items-start justify-between gap-3 mb-2">
+                  <h3 class="font-serif text-xl sm:text-2xl font-bold text-bakery-cocoa group-hover:text-bakery-goldDark transition-colors">
+                    ${product.name || "N/D"}
+                  </h3>
+                  <span class="text-lg sm:text-xl font-bold text-bakery-goldDark whitespace-nowrap">
+                    ${formatLempiras(product.price)}
+                  </span>
+                </div>
+                <p class="text-xs sm:text-sm text-bakery-mocha line-clamp-2 mb-5">
+                  ${product.description}
+                </p>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="space-y-2.5 pt-3 border-t border-bakery-beige/70">
+                <div class="grid grid-cols-2 gap-2.5">
+                  <button 
+                    onclick="openProductModal(${product.id})"
+                    class="py-2.5 px-3 rounded-xl bg-bakery-cream hover:bg-bakery-beige text-bakery-cocoa text-xs font-semibold transition-colors flex items-center justify-center gap-1.5 cursor-pointer"
+                  >
+                    <i data-lucide="eye" class="w-3.5 h-3.5 text-bakery-goldDark"></i>
+                    <span>Ver Detalles</span>
+                  </button>
+
+                  <button 
+                    onclick="addToCart(${product.id}, 1)"
+                    class="py-2.5 px-3 rounded-xl bg-bakery-cocoa hover:bg-bakery-mocha text-white text-xs font-semibold transition-colors flex items-center justify-center gap-1.5 cursor-pointer"
+                  >
+                    <i data-lucide="shopping-bag" class="w-3.5 h-3.5 text-bakery-gold"></i>
+                    <span>Agregar</span>
+                  </button>
+                </div>
+
+                <a 
+                  href="${directWaUrl}" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  class="w-full py-2.5 px-4 rounded-xl bg-bakery-whatsapp/10 hover:bg-bakery-whatsapp text-bakery-whatsappDark hover:text-white border border-bakery-whatsapp/30 text-xs font-bold transition-all flex items-center justify-center gap-2"
+                >
+                  <i data-lucide="message-circle" class="w-4 h-4"></i>
+                  <span>Pedir por WhatsApp</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        `;
+      }).join("");
+
+      lucide.createIcons();
+    }
+
+    function setCategoryChip(category) {
+      const select = document.getElementById("catalog-category");
+      if (select) {
+        select.value = category;
+        filterAndRenderCatalog();
+      }
+    }
+
+    function resetCatalogFilters() {
+      document.getElementById("catalog-search").value = "";
+      document.getElementById("catalog-category").value = "Todas";
+      document.getElementById("catalog-sort").value = "default";
+      filterAndRenderCatalog();
+    }
+
+    /**
+     * Render Masonry Gallery using all real images available from J&J Bakery
+     */
+    function renderMasonryGallery() {
+      const container = document.getElementById("masonry-gallery");
+      if (!container) return;
+
+      // Custom aspect ratios for authentic masonry rhythm using exclusively real product images
+      const aspectClasses = [
+        "aspect-[4/5]",
+        "aspect-square",
+        "aspect-[3/4]",
+        "aspect-[4/4.5]",
+        "aspect-[4/3.5]"
+      ];
+
+      container.innerHTML = PRODUCTS.map((item, idx) => `
+        <div class="masonry-item group relative rounded-3xl overflow-hidden bg-white border border-bakery-beige shadow-soft hover:shadow-premium transition-all duration-300 cursor-pointer" onclick="openLightbox(${idx})">
+          <div class="${aspectClasses[idx % aspectClasses.length]} overflow-hidden">
+            <img 
+              src="${item.image}" 
+              alt="${item.name} - Galería J&J Bakery" 
+              loading="lazy"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+            />
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-t from-bakery-cocoa/80 via-bakery-cocoa/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between p-5">
+            <div class="self-end w-10 h-10 rounded-full bg-white/90 text-bakery-cocoa flex items-center justify-center shadow-md">
+              <i data-lucide="maximize-2" class="w-4 h-4"></i>
+            </div>
+            <div class="text-white">
+              <span class="text-[11px] font-bold uppercase tracking-wider text-bakery-gold block">${item.category}</span>
+              <h3 class="font-serif text-xl font-bold">${item.name}</h3>
+              <p class="text-xs text-bakery-cream/90 mt-0.5">${formatLempiras(item.price)} • Clic para ampliar</p>
+            </div>
+          </div>
+        </div>
+      `).join("");
+    }
+
+    /**
+     * Lightbox Logic
+     */
+    function openLightbox(index) {
+      currentLightboxIndex = index;
+      updateLightboxContent();
+      const lb = document.getElementById("gallery-lightbox");
+      lb.classList.remove("hidden");
+      lb.classList.add("flex");
+      document.body.style.overflow = "hidden";
+      lucide.createIcons();
+    }
+
+    function closeLightbox() {
+      const lb = document.getElementById("gallery-lightbox");
+      lb.classList.add("hidden");
+      lb.classList.remove("flex");
+      document.body.style.overflow = "";
+      const img = document.getElementById("lightbox-img");
+      if (img) img.classList.remove("scale-125");
+    }
+
+    function navigateLightbox(step) {
+      currentLightboxIndex = (currentLightboxIndex + step + PRODUCTS.length) % PRODUCTS.length;
+      const img = document.getElementById("lightbox-img");
+      if (img) img.classList.remove("scale-125");
+      updateLightboxContent();
+    }
+
+    function updateLightboxContent() {
+      const item = PRODUCTS[currentLightboxIndex];
+      document.getElementById("lightbox-img").src = item.image;
+      document.getElementById("lightbox-img").alt = item.name;
+      document.getElementById("lightbox-category").textContent = `${item.category} • ${formatLempiras(item.price)}`;
+      document.getElementById("lightbox-title").textContent = item.name;
+      
+      const msg = encodeURIComponent(`Hola 😊 Vi el diseño *${item.name}* en la galería de J&J Bakery y me gustaría cotizar uno similar.`);
+      document.getElementById("lightbox-wa-link").href = `https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`;
+    }
+
+    /**
+     * Product Detail Modal Logic
+     */
+    function openProductModal(productId) {
+      const product = PRODUCTS.find(p => p.id === productId);
+      if (!product) return;
+
+      currentModalProduct = product;
+      currentModalQty = 1;
+
+      document.getElementById("modal-product-img").src = product.image;
+      document.getElementById("modal-product-img").alt = product.name;
+      document.getElementById("modal-product-category").textContent = product.category || "N/D";
+      document.getElementById("modal-product-status").innerHTML = `<span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>${product.status || "N/D"}`;
+      document.getElementById("modal-product-title").textContent = product.name || "N/D";
+      document.getElementById("modal-product-price").textContent = formatLempiras(product.price);
+      document.getElementById("modal-product-desc").textContent = product.description;
+      document.getElementById("modal-spec-category").textContent = product.category || "N/D";
+      document.getElementById("modal-spec-status").textContent = product.status || "N/D";
+      document.getElementById("modal-qty-value").textContent = "1";
+
+      const waMsg = encodeURIComponent(
+        `Hola 😊\n\nMe interesa pedir el *${product.name}* (${formatLempiras(product.price)}) que vi en la web de J&J Bakery. ¿Me confirman disponibilidad?`
+      );
+      document.getElementById("modal-whatsapp-btn").href = `https://wa.me/${WHATSAPP_NUMBER}?text=${waMsg}`;
+
+      document.getElementById("modal-add-cart-btn").onclick = () => {
+        addToCart(product.id, currentModalQty);
+        closeProductModal();
+      };
+
+      const modal = document.getElementById("product-modal");
+      modal.classList.remove("hidden");
+      modal.classList.add("flex");
+      document.body.style.overflow = "hidden";
+      lucide.createIcons();
+    }
+
+    function closeProductModal() {
+      const modal = document.getElementById("product-modal");
+      modal.classList.add("hidden");
+      modal.classList.remove("flex");
+      document.body.style.overflow = "";
+    }
+
+    function changeModalQty(delta) {
+      currentModalQty = Math.max(1, Math.min(20, currentModalQty + delta));
+      document.getElementById("modal-qty-value").textContent = currentModalQty;
+    }
+
+    /**
+     * Shopping Cart Logic (Add, Update, Remove, Clear, Render, Checkout)
+     */
+    function addToCart(productId, quantity = 1) {
+      const product = PRODUCTS.find(p => p.id === productId);
+      if (!product) return;
+
+      const existing = cart.find(item => item.id === productId);
+      if (existing) {
+        existing.quantity += quantity;
+      } else {
+        cart.push({ id: product.id, quantity });
+      }
+
+      saveCart();
+      showToast(`"${product.name}" agregado al carrito`);
+
+      // Animate badge
+      const badge = document.getElementById("cart-count-badge");
+      if (badge) {
+        badge.classList.add("scale-125");
+        setTimeout(() => badge.classList.remove("scale-125"), 250);
+      }
+    }
+
+    function updateCartQuantity(productId, delta) {
+      const idx = cart.findIndex(item => item.id === productId);
+      if (idx === -1) return;
+
+      cart[idx].quantity += delta;
+      if (cart[idx].quantity <= 0) {
+        cart.splice(idx, 1);
+      }
+      saveCart();
+    }
+
+    function removeFromCart(productId) {
+      cart = cart.filter(item => item.id !== productId);
+      saveCart();
+      showToast("Producto eliminado del carrito");
+    }
+
+    function clearCart() {
+      if (cart.length === 0) return;
+      cart = [];
+      saveCart();
+      showToast("Carrito vaciado");
+    }
+
+    function updateCartUI() {
+      const totalCount = cart.reduce((sum, item) => sum + item.quantity, 0);
+      const badge = document.getElementById("cart-count-badge");
+      if (badge) badge.textContent = totalCount;
+
+      const container = document.getElementById("cart-items-container");
+      const footer = document.getElementById("cart-footer");
+
+      if (!container || !footer) return;
+
+      if (cart.length === 0) {
+        container.innerHTML = `
+          <div class="h-full flex flex-col items-center justify-center text-center py-12 px-4">
+            <div class="w-16 h-16 rounded-full bg-bakery-cream border border-bakery-beige flex items-center justify-center text-bakery-goldDark mb-4">
+              <i data-lucide="shopping-bag" class="w-7 h-7"></i>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-bakery-cocoa mb-1">Tu carrito está vacío</h3>
+            <p class="text-xs sm:text-sm text-bakery-mocha max-w-xs mb-6">
+              Explora nuestros pasteles artesanales y agrega tus favoritos para solicitar tu pedido por WhatsApp.
+            </p>
+            <button onclick="toggleCart(false); document.getElementById('catalogo').scrollIntoView({behavior:'smooth'})" class="px-6 py-3 rounded-full bg-bakery-cocoa text-white text-xs font-semibold hover:bg-bakery-mocha transition-colors cursor-pointer">
+              Ver Catálogo
+            </button>
+          </div>
+        `;
+        footer.classList.add("hidden");
+        lucide.createIcons();
+        return;
+      }
+
+      footer.classList.remove("hidden");
+
+      let subtotal = 0;
+      container.innerHTML = cart.map(item => {
+        const product = PRODUCTS.find(p => p.id === item.id);
+        if (!product) return "";
+        const itemTotal = product.price * item.quantity;
+        subtotal += itemTotal;
+
+        return `
+          <div class="flex gap-3.5 p-3.5 rounded-2xl bg-bakery-cream/70 border border-bakery-beige items-center">
+            <img src="${product.image}" alt="${product.name}" class="w-16 h-16 rounded-xl object-cover bg-white shrink-0 border border-bakery-beige" />
+            <div class="flex-1 min-w-0">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-bakery-goldDark block">${product.category}</span>
+              <h4 class="font-serif font-bold text-sm text-bakery-cocoa truncate">${product.name}</h4>
+              <p class="text-xs font-semibold text-bakery-mocha mt-0.5">${formatLempiras(product.price)} c/u</p>
+              
+              <div class="flex items-center justify-between mt-2">
+                <div class="inline-flex items-center rounded-full bg-white border border-bakery-beige px-1 py-0.5">
+                  <button onclick="updateCartQuantity(${product.id}, -1)" aria-label="Disminuir cantidad" class="w-6 h-6 rounded-full hover:bg-bakery-cream text-bakery-cocoa font-bold text-xs cursor-pointer">-</button>
+                  <span class="w-7 text-center text-xs font-bold text-bakery-cocoa">${item.quantity}</span>
+                  <button onclick="updateCartQuantity(${product.id}, 1)" aria-label="Aumentar cantidad" class="w-6 h-6 rounded-full hover:bg-bakery-cream text-bakery-cocoa font-bold text-xs cursor-pointer">+</button>
+                </div>
+                <span class="text-xs font-bold text-bakery-cocoa">${formatLempiras(itemTotal)}</span>
+              </div>
+            </div>
+            <button onclick="removeFromCart(${product.id})" aria-label="Eliminar producto" class="p-1.5 text-bakery-mocha hover:text-red-600 transition-colors cursor-pointer self-start">
+              <i data-lucide="trash-2" class="w-4 h-4"></i>
+            </button>
+          </div>
+        `;
+      }).join("");
+
+      document.getElementById("cart-subtotal").textContent = formatLempiras(subtotal);
+      document.getElementById("cart-total").textContent = formatLempiras(subtotal);
+
+      lucide.createIcons();
+    }
+
+    function toggleCart(open) {
+      const backdrop = document.getElementById("cart-drawer-backdrop");
+      const drawer = document.getElementById("cart-drawer");
+
+      if (open) {
+        backdrop.classList.remove("hidden");
+        drawer.classList.remove("translate-x-full");
+        document.body.style.overflow = "hidden";
+      } else {
+        backdrop.classList.add("hidden");
+        drawer.classList.add("translate-x-full");
+        document.body.style.overflow = "";
+      }
+    }
+
+    /**
+     * Exact WhatsApp Checkout Message Format as Requested
+     */
+    function checkoutViaWhatsApp() {
+      if (cart.length === 0) {
+        showToast("Agrega al menos un pastel al carrito");
+        return;
+      }
+
+      let total = 0;
+      const productLines = cart.map(item => {
+        const product = PRODUCTS.find(p => p.id === item.id);
+        if (!product) return "";
+        total += product.price * item.quantity;
+        return `• ${product.name}\n  Precio: ${formatLempiras(product.price)}\n  Cantidad: ${item.quantity}`;
+      }).filter(Boolean).join("\n\n");
+
+      const message = 
+`Hola 😊
+
+Me interesa cotizar y reservar los siguientes pasteles que vi en la página web de J&J Bakery:
+
+${productLines}
+
+Total referencial: ${formatLempiras(total)}
+
+¿Me podrían confirmar disponibilidad y los próximos pasos para realizar mi pedido?
+
+Muchas gracias.
+
+Quedo atento(a) para coordinar entrega o retiro.`;
+
+      const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+      window.open(url, "_blank", "noopener,noreferrer");
+    }
+
+    /**
+     * Custom Quote Form Submission to WhatsApp
+     */
+    function submitQuoteForm(event) {
+      event.preventDefault();
+
+      const name = document.getElementById("quote-name").value.trim();
+      const phone = document.getElementById("quote-phone").value.trim();
+      const eventType = document.getElementById("quote-event").value;
+      const eventDate = document.getElementById("quote-date").value;
+      const guests = document.getElementById("quote-guests").value;
+      const theme = document.getElementById("quote-theme").value.trim();
+      const notes = document.getElementById("quote-notes").value.trim() || "Ninguno";
+
+      const quoteMessage = 
+`Hola 😊 J&J Bakery, me gustaría solicitar una cotización personalizada con los siguientes datos:
+
+👤 *Nombre:* ${name}
+📱 *Teléfono:* ${phone}
+🎉 *Tipo de evento:* ${eventType}
+📅 *Fecha del evento:* ${eventDate}
+👥 *Cantidad de personas:* ${guests}
+🎨 *Temática:* ${theme}
+📝 *Comentarios adicionales:* ${notes}
+
+Quedo atento(a) a su asesoría y disponibilidad. ¡Muchas gracias!`;
+
+      const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(quoteMessage)}`;
+      window.open(waUrl, "_blank", "noopener,noreferrer");
+      showToast("Redirigiendo a WhatsApp con tu cotización...");
+    }
+
+    /**
+     * Mobile Menu Toggle
+     */
+    function toggleMobileMenu(forceState) {
+      const menu = document.getElementById("mobile-menu");
+      const isHidden = menu.classList.contains("hidden");
+      const shouldOpen = typeof forceState === "boolean" ? forceState : isHidden;
+
+      if (shouldOpen) {
+        menu.classList.remove("hidden");
+      } else {
+        menu.classList.add("hidden");
+      }
+    }
+
+    /**
+     * Intelligent Virtual Assistant (WhatsApp Business Style)
+     */
+    const FAQ_DATA = [
+      {
+        question: "¿Qué sabores tienen?",
+        keywords: ["sabor", "sabores", "relleno", "bizcocho", "chocolate", "vainilla"],
+        answer: "Trabajamos opciones artesanales personalizadas según tu preferencia (vainilla, chocolate, marmoleado y rellenos especiales). Al escribirnos por WhatsApp te asesoramos para elegir la combinación perfecta para tu evento. 🎂"
+      },
+      {
+        question: "¿Cuánto tiempo antes debo reservar?",
+        keywords: ["tiempo", "anticipacion", "anticipación", "dias", "días", "reservar", "cuando"],
+        answer: "Te recomendamos reservar con al menos 3 a 5 días de anticipación para pasteles personalizados, y de 1 a 2 semanas para bodas o quinceaños. Si tu evento es pronto, escríbenos por WhatsApp para verificar disponibilidad inmediata. ⏰"
+      },
+      {
+        question: "¿Hacen diseños personalizados?",
+        keywords: ["personalizado", "personalizados", "diseño", "tematica", "temática", "idea", "foto"],
+        answer: "¡Sí! Somos especialistas en pasteles artesanales 100% personalizados para cumpleaños, bodas, quinceaños, baby showers, graduaciones y más. Puedes enviarnos tu idea o imagen de referencia. ✨"
+      },
+      {
+        question: "¿Realizan entregas?",
+        keywords: ["entrega", "entregas", "domicilio", "envio", "envío", "retiro", "llevar"],
+        answer: "Sí, coordinamos tanto retiro personal como entregas puntuales en Villanueva, Cortés. Al confirmar tu pedido acordamos el horario y punto de entrega más cómodo para ti. 🚗"
+      },
+      {
+        question: "¿Aceptan transferencias?",
+        keywords: ["transferencia", "transferencias", "pago", "pagar", "banco", "efectivo", "anticipo"],
+        answer: "¡Claro que sí! Aceptamos transferencias bancarias y pagos acordados al momento de confirmar tu reserva para agendar tu fecha de elaboración. 💳"
+      },
+      {
+        question: "¿Cómo solicito una cotización?",
+        keywords: ["cotizacion", "cotización", "cotizar", "precio", "costo", "presupuesto"],
+        answer: "Es muy fácil: puedes llenar la sección 'Cotiza tu Pastel' en esta página, agregar pasteles de nuestro catálogo al carrito o escribirnos directamente al WhatsApp +504 3397-6900. 📋"
+      },
+      {
+        question: "¿Atienden eventos corporativos?",
+        keywords: ["corporativo", "corporativos", "empresa", "empresarial", "oficina"],
+        answer: "¡Por supuesto! Elaboramos pasteles elegantes y personalizados para aniversarios empresariales, lanzamientos y celebraciones corporativas en Villanueva, Cortés. 🏢"
+      },
+      {
+        question: "¿Cuál es el horario de atención?",
+        keywords: ["horario", "hora", "abierto", "atienden", "atencion", "atención"],
+        answer: "Atendemos consultas y cotizaciones por WhatsApp de lunes a sábado en horario comercial, y coordinamos entregas de pedidos previamente agendados incluso los fines de semana. 🕒"
+      },
+      {
+        question: "¿Dónde están ubicados?",
+        keywords: ["ubicacion", "ubicación", "ubicados", "donde", "dónde", "direccion", "dirección", "villanueva"],
+        answer: "Estamos ubicados en Villanueva, Cortés, Honduras. También puedes seguir nuestro trabajo en Facebook como 'Repostería J&J'. 📍"
+      }
+    ];
+
+    function initChatbot() {
+      const chipsContainer = document.getElementById("chatbot-faq-chips");
+      if (!chipsContainer) return;
+
+      chipsContainer.innerHTML = FAQ_DATA.map((faq, idx) => `
+        <button 
+          type="button"
+          onclick="askChatbotFaq(${idx})"
+          class="whitespace-nowrap px-3 py-1.5 rounded-full bg-white hover:bg-bakery-blush/60 text-bakery-cocoa border border-bakery-beige text-[11px] font-medium transition-colors cursor-pointer shrink-0"
+        >
+          ${faq.question}
+        </button>
+      `).join("");
+    }
+
+    function toggleChatbot(forceState) {
+      const win = document.getElementById("chatbot-window");
+      const isHidden = win.classList.contains("hidden");
+      const shouldOpen = typeof forceState === "boolean" ? forceState : isHidden;
+
+      if (shouldOpen) {
+        win.classList.remove("hidden");
+        lucide.createIcons();
+      } else {
+        win.classList.add("hidden");
+      }
+    }
+
+    function appendChatMessage(text, sender = "bot", includeWaBtn = false) {
+      const container = document.getElementById("chatbot-messages");
+      const bubble = document.createElement("div");
+
+      if (sender === "user") {
+        bubble.className = "bg-[#DCF8C6] rounded-2xl rounded-tr-none p-3 shadow-xs max-w-[85%] ml-auto text-bakery-cocoa";
+        bubble.innerHTML = `<p class="leading-relaxed">${text}</p><span class="block text-[10px] text-gray-500 text-right mt-1">Tú</span>`;
+      } else {
+        bubble.className = "bg-white rounded-2xl rounded-tl-none p-3.5 shadow-xs max-w-[88%] text-bakery-cocoa animate-modal";
+        const waButtonHtml = includeWaBtn ? `
+          <a href="https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hola 😊 Vengo del asistente virtual de J&J Bakery y necesito ayuda personalizada.")}" target="_blank" rel="noopener noreferrer" class="mt-2.5 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-bakery-whatsapp text-white text-[11px] font-bold hover:bg-bakery-whatsappDark transition-colors">
+            <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+            <span>Hablar en WhatsApp</span>
+          </a>
+        ` : "";
+        bubble.innerHTML = `<p class="leading-relaxed">${text}</p>${waButtonHtml}<span class="block text-[10px] text-gray-400 text-right mt-1">J&J Bakery</span>`;
+      }
+
+      container.appendChild(bubble);
+      container.scrollTop = container.scrollHeight;
+      lucide.createIcons();
+    }
+
+    function askChatbotFaq(index) {
+      const faq = FAQ_DATA[index];
+      if (!faq) return;
+      appendChatMessage(faq.question, "user");
+      
+      setTimeout(() => {
+        appendChatMessage(faq.answer, "bot", true);
+      }, 350);
+    }
+
+    function handleChatSubmit(event) {
+      event.preventDefault();
+      const input = document.getElementById("chatbot-input");
+      const userText = input.value.trim();
+      if (!userText) return;
+
+      appendChatMessage(userText, "user");
+      input.value = "";
+
+      const normalized = userText.toLowerCase();
+      const matched = FAQ_DATA.find(item => 
+        item.keywords.some(kw => normalized.includes(kw))
+      );
+
+      setTimeout(() => {
+        if (matched) {
+          appendChatMessage(matched.answer, "bot", true);
+        } else {
+          appendChatMessage(
+            "¡Gracias por escribirnos! 😊 Para darte una atención exacta sobre diseños, precios o fechas disponibles en Villanueva, Cortés, escríbenos directamente a nuestro WhatsApp oficial.",
+            "bot",
+            true
+          );
+        }
+      }, 400);
+    }
+
+    /**
+     * Keyboard Accessibility (Escape key closes modals/drawers)
+     */
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        closeProductModal();
+        closeLightbox();
+        toggleCart(false);
+        toggleChatbot(false);
+      }
+    });
+
+    /**
+     * Initialize Application on Window Load
+     */
+    window.addEventListener("DOMContentLoaded", () => {
+      document.getElementById("current-year").textContent = new Date().getFullYear();
+      
+      // Set minimum date for quote form to today
+      const dateInput = document.getElementById("quote-date");
+      if (dateInput) {
+        const today = new Date().toISOString().split("T")[0];
+        dateInput.setAttribute("min", today);
+      }
+
+      renderHeroFeatured();
+      filterAndRenderCatalog();
+      renderMasonryGallery();
+      loadCart();
+      initChatbot();
+      lucide.createIcons();
+    });
+  </script>
+</body>
+</html>
